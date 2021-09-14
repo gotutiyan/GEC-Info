@@ -2,7 +2,7 @@
 
 Something information of grammatical error correction :)
 
-### Shared Task
+## Shared Task
 
 * HOO 2011 [[paper]](https://aclanthology.org/W11-2838/) [[website]](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-for-language-technology-clt/research/projects/hoo-helping-our-own/hoo-2011)
 
@@ -14,11 +14,9 @@ Something information of grammatical error correction :)
 
 * BEA-2019 [[paper]](https://aclanthology.org/W19-4406/) [[website]](https://www.cl.cam.ac.uk/research/nl/bea2019st/)
 
+## Models
 
-
-### Models
-
-* Copy-Augumented Architecture [[paper]](https://aclanthology.org/N19-1014.pdf) [[codes]](https://github.com/yuantiku/fairseq-gec)
+* Copy-Augumented Architecture [[paper]](https://aclanthology.org/N19-1014.pdf) [[code]](https://github.com/yuantiku/fairseq-gec)
 
 * PIE [[paper]](https://aclanthology.org/D19-1435/) [[code]](https://github.com/awasthiabhijeet/PIE)
 * LaserTagger [[paper]](https://arxiv.org/abs/1909.01187) [[code]](https://github.com/google-research/lasertagger)
@@ -26,11 +24,9 @@ Something information of grammatical error correction :)
 * GECToR [[paper]](https://aclanthology.org/2020.bea-1.16/) [[code]](https://github.com/grammarly/gector)
 * BERT-fuse [[paper]](https://aclanthology.org/2020.acl-main.391/) [[code]](https://github.com/kanekomasahiro/bert-gec)
 
+## Dataset
 
-
-### Dataset
-
-##### For training
+#### For training
 
 * W&I + LOCNESS [[paper]](https://www.cl.cam.ac.uk/~hy260/WI-cefr.pdf) [[download]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/wi+locness_v2.1.bea19.tar.gz)
 
@@ -46,7 +42,7 @@ Something information of grammatical error correction :)
 
 * PIE [[paper]](https://aclanthology.org/D19-1435.pdf) [[generated synthetic data]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)
 
-##### For evaluation
+#### For evaluation
 
 * KJ (Not public) [[paper]](https://aclanthology.org/P11-1121/) [[website]](https://www.gsk.or.jp/catalog/gsk2019-a/)
 * CLC-FCE [[paper]](https://aclanthology.org/P11-1019/) [[website]](https://ilexir.co.uk/datasets/index.html)
@@ -60,15 +56,9 @@ Something information of grammatical error correction :)
 
 * CWEB [[paper]](https://github.com/SimonHFL/CWEB/tree/master/data) [[data]]( https://github.com/SimonHFL/CWEB)
 
-##### Other tools
+## Evaluations
 
-* Cleaned Lang-8 (cLang8) [[paper]](https://arxiv.org/abs/2106.03830) [[code]](https://github.com/google-research-datasets/clang8)
-
-  
-
-### Evaluations
-
-##### Reference-based
+#### Reference-based
 
 * M^2 Scorer [[paper]](https://aclanthology.org/N12-1067/) [[code]](https://github.com/nusnlp/m2scorer)
 
@@ -90,13 +80,11 @@ Something information of grammatical error correction :)
 
   It can be evaluated systems considering error correction difficulty.
 
-##### Reference-less
+#### Reference-less
 
 * SOME [[paper]](https://aclanthology.org/2020.coling-main.573.pdf) [[code]](https://github.com/kokeman/SOME)
 
-
-
-### Tools
+## Tools
 
 * Lang8-NAIST-extractor [[code]](https://github.com/tomo-wb/Lang8-NAIST-extractor)
 
@@ -108,9 +96,7 @@ Something information of grammatical error correction :)
 
   The scripts for converting m2 file into source file and target file.
 
-  
-
-### Survey
+## Survey
 
 * "A Comprehensive Survey of Grammar Error Correction" [Wang+ 2020] [[paper]](https://arxiv.org/abs/2005.06600)
 
@@ -118,17 +104,13 @@ Something information of grammatical error correction :)
 
   Written in Japanese. 2018年までの文法誤り訂正の動向を追うのに有用．
 
-
-
-### Applications
+## Applications
 
 * GECko++ [[website]](https://gecko-app.azurewebsites.net) [[paper]](https://aclanthology.org/2021.jeptalnrecital-demo.3.pdf) [[code]](https://github.com/psawa/gecko-app)
 
-  An English assiting tool. Correction grammatical error and sentence re-ordering automatically.
+  An English assiting tool. Correction grammatical error and re-ordering sentences automatically.
 
-
-
-### Other materials
+## Other materials
 
 * NLP-progress [[website]](http://nlpprogress.com/english/grammatical_error_correction.html)
 
