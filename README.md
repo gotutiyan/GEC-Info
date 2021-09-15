@@ -106,7 +106,7 @@ Something information of grammatical error correction :)
 
 ## Applications
 
-* GECko++ [[website]](https://gecko-app.azurewebsites.net) [[paper]](https://aclanthology.org/2021.jeptalnrecital-demo.3.pdf) [[code]](https://github.com/psawa/gecko-app)
+* GECko+ [[website]](https://gecko-app.azurewebsites.net) [[paper]](https://aclanthology.org/2021.jeptalnrecital-demo.3.pdf) [[code]](https://github.com/psawa/gecko-app)
 
   An English assiting tool. Correction grammatical error and re-ordering sentences automatically.
 
