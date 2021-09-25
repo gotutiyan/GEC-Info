@@ -12,7 +12,7 @@ Something information of grammatical error correction :)
 
 * CoNLL-2014 [[paper]](https://aclanthology.org/W14-1701/) [[website]](https://www.comp.nus.edu.sg/~nlp/conll14st.html)
 
-* BEA 2019 [[paper]](https://aclanthology.org/W19-4406/) [[website]](https://www.cl.cam.ac.uk/research/nl/bea2019st/)
+* BEA-2019 [[paper]](https://aclanthology.org/W19-4406/) [[website]](https://www.cl.cam.ac.uk/research/nl/bea2019st/)
 
 ## Dataset
 
@@ -36,20 +36,15 @@ Something information of grammatical error correction :)
 #### For evaluation
 
 * KJ [[paper]](https://aclanthology.org/P11-1121/) [[website]](https://www.gsk.or.jp/catalog/gsk2019-a/)
-
-* CLC-FCE [[paper]](https://aclanthology.org/P11-1019/) [[website]](https://ilexir.co.uk/datasets/index.html)
-
-* CoNLL-2013 [[paper]](https://aclanthology.org/W13-3601/) [[download]](https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz)
-
-* CoNLL-2014 [[paper]](https://aclanthology.org/W14-1701/)  [[download]](https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz)
-
-* 8 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/P15-1068/) [[download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)
-
+* CLC-FCE [[paper]](https://aclanthology.org/P11-1019/) [[download]](https://ilexir.co.uk/datasets/index.html)
+* CoNLL-2013 [[paper]](https://aclanthology.org/W13-3601/) [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz)
+* CoNLL-2014 [[paper]](https://aclanthology.org/W14-1701/)  [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz)
+* 10 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/P15-1068/) [[direct download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)
+* 8 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/Q16-1013) [[download]](https://github.com/keisks/reassess-gec)
 * JFLEG [[paper]](https://aclanthology.org/E17-2037/) [[data]](https://github.com/keisks/jfleg)
-
 * CWEB [[paper]](https://github.com/SimonHFL/CWEB/tree/master/data) [[data]]( https://github.com/SimonHFL/CWEB)
 
-## Evaluation
+## Performance measure
 
 #### Reference-based
 
@@ -70,43 +65,34 @@ Something information of grammatical error correction :)
 
 #### Reference-less
 
-* USim [[paper]](https://aclanthology.org/N18-2020/) [[code]](https://github.com/borgr/USim)
+* "There’s No Comparison: Reference-less Evaluation Metrics in Grammatical Error Correction" (2016) [[paper]](https://aclanthology.org/D16-1228)[[code]](https://github.com/cnap/grammaticality-metrics)
 
-* SOME [[paper]](https://aclanthology.org/2020.coling-main.573) [[code]](https://github.com/kokeman/SOME)
+* Fluency + grammaticality +  meaning preservation (2017) [[paper]](https://aclanthology.org/I17-2058)
+
+* USim (2018) [[paper]](https://aclanthology.org/N18-2020/) [[code]](https://github.com/borgr/USim)
+* SOME (2020) [[paper]](https://aclanthology.org/2020.coling-main.573) [[code]](https://github.com/kokeman/SOME)
 
 ## Model / Architecture
 
 #### Supervised
 
 * Phrase-based SMT (2016) [[paper]](https://aclanthology.org/D16-1161/) [[code]](https://github.com/grammatical/baselines-emnlp2016)
-
 * First NMT-based approach (2016) [[paper]](https://aclanthology.org/N16-1042/)
-
 * CNN-based Encder-Decoder approach (2018) [[paper]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17308/16137)
-
 * Copy-Augmented Architecture (2019) [[paper]](https://aclanthology.org/N19-1014) [[code]](https://github.com/yuantiku/fairseq-gec)
-
 * PIE (2019) [[paper]](https://aclanthology.org/D19-1435/) [[code]](https://github.com/awasthiabhijeet/PIE)
-
 * LaserTagger (2019) [[paper]](https://arxiv.org/abs/1909.01187) [[code]](https://github.com/google-research/lasertagger)
-
 * GECToR (2020) [[paper]](https://aclanthology.org/2020.bea-1.16/) [[code]](https://github.com/grammarly/gector)
-
 * BERT-fuse (2020) [[paper]](https://aclanthology.org/2020.acl-main.391/) [[code]](https://github.com/kanekomasahiro/bert-gec)
-
 * Adversarial approach (2020) [[paper]](https://aclanthology.org/2020.findings-emnlp.275)
-
 * Erroneous span correction and detection (2020) [[paper]](https://aclanthology.org/2020.emnlp-main.581/)
-
 * Document-level approach (2020) [[paper]](https://aclanthology.org/2021.bea-1.8/) [[code]](https://github.com/chrisjbryant/doc-gec)
-
 * Seq2Edits (2020) [[paper]](https://aclanthology.org/2020.emnlp-main.418/) 
-
+* Beam search considering copy probability (2020) [[paper]](https://aclanthology.org/2020.coling-main.193)
+* BART-based [[paper]](https://aclanthology.org/2020.aacl-main.83.pdf) [[code]](https://github.com/Katsumata420/generic-pretrained-GEC)
 * Shallow Aggressive Decoding (2021) [[paper]](https://aclanthology.org/2021.acl-long.462/) 
-
-* GECToR large [[paper]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view) [[code]](https://github.com/MaksTarnavskyi/gector-large)
-
-* T5 based (+ cLang8 dataset)  [[paper]](https://arxiv.org/abs/2106.03830) [[code]](https://github.com/google-research-datasets/clang8)
+* GECToR large (2021) [[paper]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view) [[code]](https://github.com/MaksTarnavskyi/gector-large)
+* T5 based (2021)  [[paper]](https://arxiv.org/abs/2106.03830) [[code]](https://github.com/google-research-datasets/clang8)
 
 #### Unsupervised
 
@@ -127,13 +113,13 @@ The method was first called "DirectNoise" by [[kiyono+ 2019]](https://aclantholo
 
 * Substituting words using confusion sets (2019) [[paper]](https://aclanthology.org/W19-4427)
 
-* Wikipedia revision & Wikipedia round-trip translation [[paper]](https://aclanthology.org/N19-1333)
+* Wikipedia revision & Wikipedia round-trip translation (2019) [[paper]](https://aclanthology.org/N19-1333)
 
 * Using machine translation pairs (2020) [[paper]](https://aclanthology.org/2020.findings-emnlp.30/)
 
 * Editing latent representation (2020) [[paper]](https://aclanthology.org/2020.coling-main.200/)
 
-* Considering learner’s error tendency [[paper]](https://aclanthology.org/2020.acl-srw.5/)
+* Considering learner’s error tendency (2020) [[paper]](https://aclanthology.org/2020.acl-srw.5/)
 
 * Tagged corruption model (2021) [[paper]](https://aclanthology.org/2021.bea-1.4/) [[code]](https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction)
 
@@ -150,13 +136,10 @@ The scripts for converting m2 file into source file and target file.
 ## Analysis / Finding
 
 * "Human Evaluation of Grammatical Error Correction Systems" (2015) [[paper]](https://aclanthology.org/D15-1052/)
-  
-* "Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?" [[paper]](https://aclanthology.org/N19-1132/)  
-
+* "How Far are We from Fully Automatic High Quality Grammatical Error Correction?" (2015) [[paper]](https://aclanthology.org/P15-1068)
+* "Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?" (2019) [[paper]](https://aclanthology.org/N19-1132/)  
 * "How Good (really) are Grammatical Error Correction Systems?" (2021) [[paper]](https://aclanthology.org/2021.eacl-main.231/)
-
 * "Do Grammatical Error Correction Models Realize Grammatical Generalization?" (2021) [[paper]](https://aclanthology.org/2021.findings-acl.399/)
-
 * "Comparison of Grammatical Error Correction Using Back-Translation Models"  (2021) [[paper]](https://aclanthology.org/2021.naacl-srw.16/)
 
 ## Survey
@@ -175,9 +158,10 @@ The scripts for converting m2 file into source file and target file.
 
 * NLP-progress [[website]](http://nlpprogress.com/english/grammatical_error_correction.html)  
   The performance ranking on some datasets.
-
 * A Crash Course in Automatic Grammatical Error Correction [[paper]](https://www.aclweb.org/anthology/2020.coling-tutorials.6/) [[materials]](https://github.com/grammatical/coling2020-tutorial)  
   The tutorial in COLING2020.
+* Chunngai/gec-papers [[github]](https://github.com/Chunngai/gec-papers/blob/master/README.md)  
+  The papers are being compiled around 2019-2020?
 
 ## Grammatical Error Detection
 
