@@ -1,6 +1,7 @@
 # GEC-Info
 
-Something information of grammatical error correction :)
+Something information of grammatical error correction :)  
+If the string in the `""` is the title of paper. Otherwise, it indicates method/dataset name, keywords or other indeintical explanetion.
 
 ## Shared Task
 * HOO 2011 [[paper]](https://aclanthology.org/W11-2838/) [[website]](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-for-language-technology-clt/research/projects/hoo-helping-our-own/hoo-2011)
@@ -20,7 +21,7 @@ Something information of grammatical error correction :)
 * ICNALE [[paper]](http://www.lib.kobe-u.ac.jp/infolib/meta_pub/G0000003kernel_81006678) [[data]](http://language.sakura.ne.jp/icnale/)
 * Lang-8 [[paper]](https://aclanthology.org/I11-1017) [[website]](https://sites.google.com/site/naistlang8corpora/) [[data: Fill this form]](https://docs.google.com/forms/d/17gZZsC_rnaACMXmPiab3kjqBEtRHPMz0UG9Dk-x_F0k/viewform?edit_requested=true)  
   Related tools are useful. See the [[Other Tools]](https://github.com/gotutiyan/GEC-Info#other-tool) for the details.
-* PIE [[paper]](https://aclanthology.org/D19-1435) [[generated synthetic data]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)
+* PIE-synthetic [[paper]](https://aclanthology.org/D19-1435) [[generated synthetic data]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)
 
 #### For evaluation
 * KJ [[paper]](https://aclanthology.org/P11-1121/) [[website]](https://www.gsk.or.jp/catalog/gsk2019-a/)
@@ -30,7 +31,7 @@ Something information of grammatical error correction :)
 * 10 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/P15-1068/) [[direct download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)
 * 8 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/Q16-1013) [[download]](https://github.com/keisks/reassess-gec)
 * JFLEG [[paper]](https://aclanthology.org/E17-2037/) [[data]](https://github.com/keisks/jfleg)
-* CWEB [[paper]](https://github.com/SimonHFL/CWEB/tree/master/data) [[data]]( https://github.com/SimonHFL/CWEB)
+* CWEB [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.680) [[data]](https://github.com/SimonHFL/CWEB)
 
 ## Performance measure
 
@@ -69,11 +70,11 @@ Something information of grammatical error correction :)
 * Document-level approach (2020) [[paper]](https://aclanthology.org/2021.bea-1.8/) [[code]](https://github.com/chrisjbryant/doc-gec)
 * Seq2Edits (2020) [[paper]](https://aclanthology.org/2020.emnlp-main.418/) 
 * Beam search considering copy probability (2020) [[paper]](https://aclanthology.org/2020.coling-main.193)
-* BART-based [[paper]](https://aclanthology.org/2020.aacl-main.83) [[code]](https://github.com/Katsumata420/generic-pretrained-GEC)
+* BART-based (2020) [[paper]](https://aclanthology.org/2020.aacl-main.83) [[code]](https://github.com/Katsumata420/generic-pretrained-GEC)
 * Shallow Aggressive Decoding (2021) [[paper]](https://aclanthology.org/2021.acl-long.462/) 
 * GECToR large (2021) [[paper]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view) [[code]](https://github.com/MaksTarnavskyi/gector-large)
 * T5-based (2021)  [[paper]](https://arxiv.org/abs/2106.03830) [[code]](https://github.com/google-research-datasets/clang8)
-* GAN-like sequence labeling [[paper]](https://aclanthology.org/2021.findings-acl.290/) 
+* GAN-like sequence labeling (2021) [[paper]](https://aclanthology.org/2021.findings-acl.290/) 
 
 #### Unsupervised
 * LM-based approach (2018) [[paper]](https://aclanthology.org/W18-0529/) [[code]](https://github.com/chrisjbryant/lmgec-lite)
@@ -82,11 +83,14 @@ Something information of grammatical error correction :)
 ## Strategy
 * Fluency boosting learning (2018) [[paper]](https://arxiv.org/abs/1807.01270)
 * Some methods that can be adapted neural MT (2018) [[paper]](https://aclanthology.org/N18-1055/)
-* Iterative decoding [[paper]](https://arxiv.org/abs/1811.01710)
+* Iterative decoding (2018) [[paper]](https://arxiv.org/abs/1811.01710)
+* "Learning to combine Grammatical Error Corrections" (2019) [[paper]](https://aclanthology.org/W19-4414/)
+* "Data Weighted Training Strategies for Grammatical Error Correction" (2020) [[paper]](https://aclanthology.org/2020.tacl-1.41/)
+* "A Self-Refinement Strategy for Noise Reduction in Grammatical Error Correction" (2020) [[paper]](https://aclanthology.org/2020.findings-emnlp.26/)
 
 ## Data Augmentation
 * Back translation (2016) [[paper]](https://aclanthology.org/P16-1009/)
-* Diverse back translation (2018) [[paper]](https://aclanthology.org/N18-1057/)
+* Diverse back translation with noisy beam search (2018) [[paper]](https://aclanthology.org/N18-1057/)
 * DirectNoise (2019) [[paper]](https://aclanthology.org/N19-1014/)  
 The method was first called "DirectNoise" by [[kiyono+ 2019]](https://aclanthology.org/D19-1119/) ?
 * An emprical study of incorporating pseudo data (2019) [[paper]](https://aclanthology.org/D19-1119/) [[code]](https://github.com/butsugiri/gec-pseudodata)
@@ -110,6 +114,7 @@ The scripts for converting m2 file into source file and target file.
 ## Analysis / Finding
 * "Human Evaluation of Grammatical Error Correction Systems" (2015) [[paper]](https://aclanthology.org/D15-1052/)
 * "How Far are We from Fully Automatic High Quality Grammatical Error Correction?" (2015) [[paper]](https://aclanthology.org/P15-1068)
+* "Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality" (2016) [[paper]](https://aclanthology.org/Q16-1013.pdf)
 * "Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?" (2019) [[paper]](https://aclanthology.org/N19-1132/)  
 * "How Good (really) are Grammatical Error Correction Systems?" (2021) [[paper]](https://aclanthology.org/2021.eacl-main.231/)
 * "Do Grammatical Error Correction Models Realize Grammatical Generalization?" (2021) [[paper]](https://aclanthology.org/2021.findings-acl.399/)
