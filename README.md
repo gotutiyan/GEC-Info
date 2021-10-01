@@ -45,6 +45,8 @@ If the string in the `""` is the title of paper. Otherwise, it indicates method/
   Code is available only python 2.x.
 * ERRANT [[paper 1]](https://www.aclweb.org/anthology/C16-1079) [[paper 2]](https://www.aclweb.org/anthology/P17-1074) [[code]](https://github.com/chrisjbryant/errant)  
   It is often used to evaluate BEA-2019.
+* GMEG-Metric [[paper]](https://aclanthology.org/Q19-1032) [[code]](https://github.com/grammarly/GMEG)  
+  Ridge regression using existing metrics (e.g. ERRANT, GLEU) as features.
 * GoToScorer [[paper]](https://www.aclweb.org/anthology/2020.coling-main.188) [[code]](https://github.com/gotutiyan/GTS)  
   It can be evaluated systems considering error correction difficulty.
 
@@ -53,10 +55,6 @@ If the string in the `""` is the title of paper. Otherwise, it indicates method/
 * Fluency + grammaticality +  meaning preservation (2017) [[paper]](https://aclanthology.org/I17-2058)
 * USim (2018) [[paper]](https://aclanthology.org/N18-2020/) [[code]](https://github.com/borgr/USim)
 * SOME (2020) [[paper]](https://aclanthology.org/2020.coling-main.573) [[code]](https://github.com/kokeman/SOME)
-
-#### Hybrid (Reference based & less)
-* GMEG-Metric [[paper]](https://aclanthology.org/Q19-1032) [[code]](https://github.com/grammarly/GMEG)  
-  Ridge regression using existing metrics (e.g. ERRANT, GLEU) as features.
 
 ## Models / Architectures
 
