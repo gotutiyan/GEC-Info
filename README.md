@@ -31,6 +31,7 @@ If the string in the `""` is the title of paper. Otherwise, it indicates method/
 * 10 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/P15-1068/) [[direct download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)
 * 8 additional annotations for the CoNLL-2014 Shared Task [[paper]](https://aclanthology.org/Q16-1013) [[download]](https://github.com/keisks/reassess-gec)
 * JFLEG [[paper]](https://aclanthology.org/E17-2037/) [[data]](https://github.com/keisks/jfleg)
+* GMEG-Data [[paper]](https://aclanthology.org/Q19-1032) [[code]](https://github.com/grammarly/GMEG)
 * CWEB [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.680) [[data]](https://github.com/SimonHFL/CWEB)
 
 ## Performance measures
@@ -53,11 +54,16 @@ If the string in the `""` is the title of paper. Otherwise, it indicates method/
 * USim (2018) [[paper]](https://aclanthology.org/N18-2020/) [[code]](https://github.com/borgr/USim)
 * SOME (2020) [[paper]](https://aclanthology.org/2020.coling-main.573) [[code]](https://github.com/kokeman/SOME)
 
+#### Hybrid (Reference based & less)
+* GMEG-Metric [[paper]](https://aclanthology.org/Q19-1032) [[code]](https://github.com/grammarly/GMEG)  
+  Ridge regression using existing metrics (e.g. ERRANT, GLEU) as features.
+
 ## Models / Architectures
 
 #### Supervised
 * Phrase-based SMT (2016) [[paper]](https://aclanthology.org/D16-1161/) [[code]](https://github.com/grammatical/baselines-emnlp2016)
 * First NMT-based approach (2016) [[paper]](https://aclanthology.org/N16-1042/)
+* SMEG (2017) [[paper]](https://aclanthology.org/W17-5039) [[code]](https://github.com/cnap/smt-for-gec)
 * CNN-based Encder-Decoder approach (2018) [[paper]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17308/16137)
 * Copy-Augmented Architecture (2019) [[paper]](https://aclanthology.org/N19-1014) [[code]](https://github.com/yuantiku/fairseq-gec)
 * PIE (2019) [[paper]](https://aclanthology.org/D19-1435/) [[code]](https://github.com/awasthiabhijeet/PIE)
@@ -83,6 +89,7 @@ If the string in the `""` is the title of paper. Otherwise, it indicates method/
 * LM-Critic (2021) [[paper]](https://arxiv.org/abs/2109.06822) [[code]](https://github.com/michiyasunaga/LM-Critic)
 
 ## Strategies
+* Neural reinforcement learning (2017) [[paper]](https://aclanthology.org/I17-2062/) 
 * Fluency boosting learning (2018) [[paper]](https://arxiv.org/abs/1807.01270)
 * Some methods that can be adapted neural MT (2018) [[paper]](https://aclanthology.org/N18-1055/)
 * Iterative decoding (2018) [[paper]](https://arxiv.org/abs/1811.01710)
@@ -117,6 +124,7 @@ The scripts for converting m2 file into source file and target file.
 * "Human Evaluation of Grammatical Error Correction Systems" (2015) [[paper]](https://aclanthology.org/D15-1052/)
 * "How Far are We from Fully Automatic High Quality Grammatical Error Correction?" (2015) [[paper]](https://aclanthology.org/P15-1068)
 * "Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality" (2016) [[paper]](https://aclanthology.org/Q16-1013)
+* "GEC into the future: Where are we going and how do we get there?" (2017) [[paper]](https://aclanthology.org/W17-5019/)
 * MEAGE (2018) [[paper]](https://aclanthology.org/P18-1127) [[code]](https://github.com/borgr/EoE)
 * "Inherent Biases in Reference-based Evaluation for Grammatical Error Correction" (2018) [[paper]](https://aclanthology.org/P18-1059/) [[code]](https://github.com/borgr/IBGEC)
 * "Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?" (2019) [[paper]](https://aclanthology.org/N19-1132/)  
@@ -145,3 +153,16 @@ The scripts for converting m2 file into source file and target file.
 * "Wronging a Right: Generating Better Errors to Improve Grammatical Error Detection" (2018) [[paper]](https://aclanthology.org/D18-1541/) [[code]](https://github.com/skasewa/wronging)
 * Multi-head and multi-layer attention (2019) [[paper]](https://arxiv.org/abs/1904.07334)
 * "Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors" (2021) [[paper]](https://arxiv.org/abs/2108.12216) 
+
+## Other Languages
+
+### Chinese
+* NLPCC-2018 Shared Task (2018) [[paper]](http://tcci.ccf.org.cn/conference/2018/papers/EV11.pdf) [[data]](https://github.com/zhaoyyoo/NLPCC2018_GEC)
+* MaskGEC  (2020)[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/5476)
+* "Chinese Grammatical Error Detection Based on BERT Model" (2020) [[paper]](https://aclanthology.org/2020.nlptea-1.15/)
+* Tail-to-Tail Non-Autoregressive Sequence Prediction (2021)[[paper]](https://arxiv.org/abs/2106.01609)
+
+### Arabic
+* QALB 2014 Shared Task (2014) [[paper]](https://aclanthology.org/W14-3605/) [[website]](http://nlp.qatar.cmu.edu/qalb/sharedtask/shared_task.html)
+* QALB 2015 Shared Task (2015) [[paper]](https://aclanthology.org/W15-3204/)
+* Automatic Error Type Annotation for Arabic (2021) [[paper]](https://arxiv.org/abs/2109.08068)
