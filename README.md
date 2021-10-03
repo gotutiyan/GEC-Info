@@ -1,9 +1,9 @@
-# GEC-Info
+# GEC Information
 
 Something information of grammatical error correction :)  
 If the string in the `""` is the title of paper. Otherwise, it indicates method/dataset name or keywords.
 
-It can also be viewd on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
+It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 ## Shared Tasks
 * HOO 2011 [[paper]](https://aclanthology.org/W11-2838/) [[website]](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-for-language-technology-clt/research/projects/hoo-helping-our-own/hoo-2011)
