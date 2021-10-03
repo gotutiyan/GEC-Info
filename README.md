@@ -3,6 +3,8 @@
 Something information of grammatical error correction :)  
 If the string in the `""` is the title of paper. Otherwise, it indicates method/dataset name or keywords.
 
+It can also be viewd on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
+
 ## Shared Tasks
 * HOO 2011 [[paper]](https://aclanthology.org/W11-2838/) [[website]](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-for-language-technology-clt/research/projects/hoo-helping-our-own/hoo-2011)
 * HOO 2012 [[paper]](https://aclanthology.org/W12-2006) [[website]](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-for-language-technology-clt/research/projects/hoo-helping-our-own/hoo-2012-shared-task-on-preposition-and-determiner-error-correction)
@@ -157,6 +159,10 @@ The scripts for converting m2 file into source file and target file.
 * "Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors" (2021) [[paper]](https://arxiv.org/abs/2108.12216) 
 
 ## Other Languages
+### Arabic
+* QALB 2014 Shared Task (2014) [[paper]](https://aclanthology.org/W14-3605/) [[website]](http://nlp.qatar.cmu.edu/qalb/sharedtask/shared_task.html)
+* QALB 2015 Shared Task (2015) [[paper]](https://aclanthology.org/W15-3204/)
+* Automatic Error Type Annotation for Arabic (2021) [[paper]](https://arxiv.org/abs/2109.08068)
 
 ### Chinese
 * NLPCC-2018 Shared Task (2018) [[paper]](http://tcci.ccf.org.cn/conference/2018/papers/EV11.pdf) [[data]](https://github.com/zhaoyyoo/NLPCC2018_GEC)
@@ -164,7 +170,8 @@ The scripts for converting m2 file into source file and target file.
 * "Chinese Grammatical Error Detection Based on BERT Model" (2020) [[paper]](https://aclanthology.org/2020.nlptea-1.15/)
 * Tail-to-Tail Non-Autoregressive Sequence Prediction (2021)[[paper]](https://arxiv.org/abs/2106.01609)
 
-### Arabic
-* QALB 2014 Shared Task (2014) [[paper]](https://aclanthology.org/W14-3605/) [[website]](http://nlp.qatar.cmu.edu/qalb/sharedtask/shared_task.html)
-* QALB 2015 Shared Task (2015) [[paper]](https://aclanthology.org/W15-3204/)
-* Automatic Error Type Annotation for Arabic (2021) [[paper]](https://arxiv.org/abs/2109.08068)
+### Czech
+* AKCES-GEC dataset [[paper]](https://aclanthology.org/D19-5545) [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)
+
+### Russian
+* RULEC-GEC dataset [[paper]](https://aclanthology.org/Q19-1001/) [[data]](https://github.com/arozovskaya/RULEC-GEC)
