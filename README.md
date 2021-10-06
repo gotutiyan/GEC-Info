@@ -171,7 +171,14 @@ The scripts for converting m2 file into source file and target file.
 * Tail-to-Tail Non-Autoregressive Sequence Prediction (2021)[[paper]](https://arxiv.org/abs/2106.01609)
 
 ### Czech
-* AKCES-GEC dataset [[paper]](https://aclanthology.org/D19-5545) [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)
+* AKCES-GEC dataset (2019) [[paper]](https://aclanthology.org/D19-5545) [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)
+
+### German
+* Falko-MERLIN GEC Corpus (2018) [[paper]](https://aclanthology.org/W18-6111/) [[data]](https://github.com/adrianeboyd/boyd-wnut2018/)
+
+### Japanese
+* TMU Evaluation Corpus for Japanese Learners (2020) [[paper]](https://aclanthology.org/2020.lrec-1.26/) [[data: Fill this form]](https://docs.google.com/forms/d/e/1FAIpQLSdBOoRuHaDuBuwuuYHrz6ILR6LQqIPw3AUL6XVEmvDFg8z_wQ/viewform)
 
 ### Russian
-* RULEC-GEC dataset [[paper]](https://aclanthology.org/Q19-1001/) [[data]](https://github.com/arozovskaya/RULEC-GEC)
+* RULEC-GEC dataset (2019) [[paper]](https://aclanthology.org/Q19-1001/) [[data]](https://github.com/arozovskaya/RULEC-GEC)
+* RU-Lang8 dataset (2021) [[paper]](https://aclanthology.org/2021.findings-acl.359/) [[data]](https://github.com/arozovskaya/RU-Lang8)
