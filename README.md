@@ -35,32 +35,36 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 # Datasets
 
-### For training
+### For Training
 
 |Name|Year|Paper|Note|
 |:--|:--|:--|:--|
-|EFCamDat|2014| [[paper v1]](https://www.semanticscholar.org/paper/Automatic-Linguistic-Annotation-ofLarge-Scale-L2-Geertzen-Alexopoulou/3261659127bebca4d805e8592906b37ece8d0ca3) [[paper v2]](https://corpus.mml.cam.ac.uk/faq/EFCamDat-Intro_release2.pdf)| [[data v2]](https://philarion.mml.cam.ac.uk)|
-|GitHub Typo Corpus| 2019|[[paper]](https://arxiv.org/abs/1911.12893)| [[data]](https://github.com/mhagiwara/github-typo-corpus)|
-|W&I+LOCNESS on BEA2019 Shared Task| 2019|[[paper]](https://www.cl.cam.ac.uk/~hy260/WI-cefr.pdf)| [[download]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/wi+locness_v2.1.bea19.tar.gz)
-|FCE|2011| [[paper]](https://www.aclweb.org/anthology/P11-1019)| [[download]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz)|
-|NUCLE|2013| [[paper]](https://www.aclweb.org/anthology/W13-1703)| [[data]](https://www.comp.nus.edu.sg/~nlp/corpora.html)|
-|ICNALE|2013| [[paper]](http://www.lib.kobe-u.ac.jp/infolib/meta_pub/G0000003kernel_81006678)| [[data]](http://language.sakura.ne.jp/icnale/)|
-|Lang-8|2011| [[paper]](https://aclanthology.org/I11-1017)| [[website]](https://sites.google.com/site/naistlang8corpora/) [[data: Fill this form]](https://docs.google.com/forms/d/17gZZsC_rnaACMXmPiab3kjqBEtRHPMz0UG9Dk-x_F0k/viewform?edit_requested=true)<br>Related tools are useful. See the [[Other Tools]](https://github.com/gotutiyan/GEC-Info#other-tool) for the details.|
-|PIE-synthetic|2019| [[paper]](https://aclanthology.org/D19-1435)| [[generated synthetic data]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)|
+|EFCamDat|2014| [[Automatic Linguistic Annotation ofLarge Scale L2 Databases: The EF-Cambridge Open Language Database(EFCamDat)]](https://www.semanticscholar.org/paper/Automatic-Linguistic-Annotation-ofLarge-Scale-L2-Geertzen-Alexopoulou/3261659127bebca4d805e8592906b37ece8d0ca3) [[The EF Cambridge Open Language Database (efcamdat) Information for Users]](https://corpus.mml.cam.ac.uk/faq/EFCamDat-Intro_release2.pdf)| [[download v2]](https://philarion.mml.cam.ac.uk)|
+|GitHub Typo Corpus| 2019|[[GitHub Typo Corpus: A Large-Scale Multilingual Dataset of Misspellings and Grammatical Errors]](https://arxiv.org/abs/1911.12893)| [[download]](https://github.com/mhagiwara/github-typo-corpus)|
+|W&I+LOCNESS on BEA2019 Shared Task| 2019|[[Developing an Automated Writing Placement System for ESL Learners ]](https://www.cl.cam.ac.uk/~hy260/WI-cefr.pdf)| [[direct download]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/wi+locness_v2.1.bea19.tar.gz)
+|FCE|2011| [[A New Dataset and Method for Automatically Grading ESOL Texts]](https://www.aclweb.org/anthology/P11-1019)| [[direct download]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz)|
+|NUCLE|2013| [[Building a Large Annotated Corpus of Learner English: The NUS Corpus of Learner English]](https://www.aclweb.org/anthology/W13-1703)| [[download]](https://www.comp.nus.edu.sg/~nlp/corpora.html)|
+|ICNALE|2013| [[The ICNALE and Sophisticated Contrastive Interlanguage Analysis of Asian Learners of English]](http://www.lib.kobe-u.ac.jp/infolib/meta_pub/G0000003kernel_81006678)| [[download]](http://language.sakura.ne.jp/icnale/)|
+|Lang-8|2011| [[Mining Revision Log of Language Learning SNS for Automated Japanese Error Correction of Second Language Learners]](https://aclanthology.org/I11-1017)| [[website]](https://sites.google.com/site/naistlang8corpora/) [[download: Fill this form]](https://docs.google.com/forms/d/17gZZsC_rnaACMXmPiab3kjqBEtRHPMz0UG9Dk-x_F0k/viewform?edit_requested=true)<br>Related tools are useful. See the [[Other Tools]](https://github.com/gotutiyan/GEC-Info#other-tools) for the details.|
 
-### For evaluation
+### For Training (Pseudo / systhetic data)
 
 |Name|Year|Paper|Note|
 |:--|:--|:--|:--|
-|KJ|2011| [[paper]](https://aclanthology.org/P11-1121/)| [[website]](https://www.gsk.or.jp/catalog/gsk2019-a/)|
-|CLC-FCE|2011| [[paper]](https://aclanthology.org/P11-1019/)| [[download]](https://ilexir.co.uk/datasets/index.html)|
-|CoNLL-2013|2013| [[paper]](https://aclanthology.org/W13-3601/)| [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz)|
-|CoNLL-2014|2014| [[paper]](https://aclanthology.org/W14-1701/)| [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz)|
-|10 additional annotations for the CoNLL14 |2015| [[paper]](https://aclanthology.org/P15-1068/)| [[direct download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)|
-|8 additional annotations for the CoNLL14|2016| [[paper]](https://aclanthology.org/Q16-1013)| [[download]](https://github.com/keisks/reassess-gec)|
-|JFLEG|2017| [[paper]](https://aclanthology.org/E17-2037/)| [[data]](https://github.com/keisks/jfleg)|
-|GMEG-Data|2019| [[paper]](https://aclanthology.org/Q19-1032)| [[code]](https://github.com/grammarly/GMEG)|
-|CWEB|2020| [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.680)| [[data]](https://github.com/SimonHFL/CWEB)|
+|PIE-synthetic|2019| [[Parallel Iterative Edit Models for Local Sequence Transduction]](https://aclanthology.org/D19-1435)| [[download]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)|
+
+### For Evaluation
+
+|Name|Year|Paper|Note|
+|:--|:--|:--|:--|
+|KJ|2011| [[Creating a manually error-tagged and shallow-parsed learner corpus]](https://aclanthology.org/P11-1121/)| [[download]](https://www.gsk.or.jp/catalog/gsk2019-a/)|
+|CoNLL-2013|2013| [[The CoNLL-2013 Shared Task on Grammatical Error Correction]](https://aclanthology.org/W13-3601/)| [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz)|
+|CoNLL-2014|2014| [[The CoNLL-2014 Shared Task on Grammatical Error Correction]](https://aclanthology.org/W14-1701/)| [[direct download]](https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz)|
+|10 additional annotations for the CoNLL14 |2015| [[How Far are We from Fully Automatic High Quality Grammatical Error Correction?]](https://aclanthology.org/P15-1068/)| [[direct download]](https://aclanthology.org/attachments/P15-1068.Datasets.zip)|
+|8 additional annotations for the CoNLL14|2016| [[Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality]](https://aclanthology.org/Q16-1013)| [[download]](https://github.com/keisks/reassess-gec)|
+|JFLEG|2017| [[JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction]](https://aclanthology.org/E17-2037/)| [[download]](https://github.com/keisks/jfleg)|
+|GMEG-Data|2019| [[Enabling Robust Grammatical Error Correction in New Domains: Data Sets, Metrics, and Analyses]](https://aclanthology.org/Q19-1032)| [[code]](https://github.com/grammarly/GMEG)|
+|CWEB|2020| [[Grammatical Error Correction in Low Error Density Domains: A New Benchmark and Analyses]](https://www.aclweb.org/anthology/2020.emnlp-main.680)| [[download]](https://github.com/SimonHFL/CWEB)|
 
 
 # Performance measures
@@ -105,9 +109,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |LaserTagger|2019|[[Encode, Tag, Realize: High-Precision Text Editing]](https://arxiv.org/abs/1909.01187)|[[code]](https://github.com/google-research/lasertagger)|
 |Pretrain by DAE + sequential transfer learning|2019|[[A Neural Grammatical Error Correction System Built On Better Pre-training and Sequential Transfer Learning]](https://aclanthology.org/W19-4423/)|[[code]](https://github.com/kakaobrain/helo_word)<br>BEA-2019: Kakao&Brain|
 |Use sentence-level error dectection| 2019|[[The AIP-Tohoku System at the BEA-2019 Shared Task]](https://aclanthology.org/W19-4418)|BEA-2019: AIP-Tohoku||
-|Ensemble four CNN + eight Transformer|2019|[[The LAIX Systems in the BEA-2019 GEC Shared Task]](https://aclanthology.org/W19-4416)|BEA-2019: LAIX|
+|Four CNN + eight Transformer|2019|[[The LAIX Systems in the BEA-2019 GEC Shared Task]](https://aclanthology.org/W19-4416)|BEA-2019: LAIX|
 |Transformer seq2seq + BERT re-ranker|2019|[[TMU Transformer System Using BERT for Re-ranking at BEA 2019 Grammatical Error Correction on Restricted Track]](https://aclanthology.org/W19-4422)|BEA-2019: TMU|
-|Apply noisy channel with BERT and GPT-2 as LM models|2019|[[Noisy Channel for Low Resource Grammatical Error Correction]](https://aclanthology.org/W19-4420.pdf)|BEA-2019: Siteimprove|
+|Apply noisy channel with BERT and GPT-2 as LM|2019|[[Noisy Channel for Low Resource Grammatical Error Correction]](https://aclanthology.org/W19-4420.pdf)|BEA-2019: Siteimprove|
 |Use Finite State Transducers|2019|[[Neural Grammatical Error Correction with Finite State Transducers]](https://aclanthology.org/N19-1406)||
 |GECToR|2020|[[GECToR – Grammatical Error Correction: Tag, Not Rewrite]](https://aclanthology.org/2020.bea-1.16/)|[[code]](https://github.com/grammarly/gector)|
 |BERT-fuse|2020|[[Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction]](https://aclanthology.org/2020.acl-main.391/)|[[code]](https://github.com/kanekomasahiro/bert-gec)|
@@ -140,7 +144,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |Neural reinforcement learning|2017|[[Grammatical Error Correction with Neural Reinforcement Learning]](https://aclanthology.org/I17-2062/)||
-|Fluency boosting learning|2018|[[Reaching Human-level Performance in Automatic Grammatical Error Correction: An Empirical Study]](https://arxiv.org/abs/1807.01270)|[[code]](https://github.com/getao/human-performance-gec)|
+|Fluency boosting learning|2018|[[Fluency Boost Learning and Inference for Neural Grammatical Error Correction]](https://aclanthology.org/P18-1097)|[[code]](https://github.com/getao/human-performance-gec)<br>ACL2018|
+|Fluency boosting learning (added round-way error correction)|2018|[[Reaching Human-level Performance in Automatic Grammatical Error Correction: An Empirical Study]](https://arxiv.org/abs/1807.01270)|[[code]](https://github.com/getao/human-performance-gec)<br>Microsoft Research Technical Report|
 |Some methods that can be adapted neural MT|2018|[[Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task]](https://aclanthology.org/N18-1055/)|[[code]](https://github.com/grammatical/neural-naacl2018)|
 |Iterative decoding|2018|[[Weakly Supervised Grammatical Error Correction using Iterative Decoding]](https://arxiv.org/abs/1811.01710)||
 |Combine systems automatically|2019|[[Learning to combine Grammatical Error Corrections]](https://aclanthology.org/W19-4414/)|[[code]](https://github.com/IBM/learning-to-combine-grammatical-error-corrections)|
@@ -166,6 +171,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Methods for erroneous data generation|2019|[[Erroneous data generation for Grammatical Error Correction]](https://aclanthology.org/W19-4415)|BEA-2019: Shuyao|
 |Wikipedia revision & Wikipedia round-trip translation|2019|[[Corpora Generation for Grammatical Error Correction]](https://aclanthology.org/N19-1333)||
 |Create confusion sets by edit distance, word embeddings, spell-breaking|2019|[[Minimally-Augmented Grammatical Error Correction]](https://aclanthology.org/D19-5546)|Supervised setting is also performed|
+|Control error rates and error types by rule-based corruption and filtered back-translation|2020|[[Controllable Data Synthesis Method for Grammatical Error Correction]](https://arxiv.org/pdf/1909.13302.pdf)||
 |Use machine translation pairs|2020|[[Improving Grammatical Error Correction with Machine Translation Pairs]](https://aclanthology.org/2020.findings-emnlp.30/)||
 |Edit latent representation|2020|[[Improving Grammatical Error Correction with Data Augmentation by Editing Latent Representation]](https://aclanthology.org/2020.coling-main.200/)||
 |Consider learner’s error tendency|2020|[[Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner’s Error Tendency]](https://aclanthology.org/2020.acl-srw.5/)||
@@ -177,7 +183,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |A Self-Refinement Strategy for Noise Reduction|2020|[[A Self-Refinement Strategy for Noise Reduction in Grammatical Error Correction]](https://aclanthology.org/2020.findings-emnlp.26/)||
 |cLang8 (Cleaned Lang-8)|2021| [[A Simple Recipe for Multilingual Grammatical Error Correction]](https://arxiv.org/abs/2106.03830)| [[code]](https://github.com/google-research-datasets/clang8)|
-
 
 
 # Analyses / Findings
@@ -210,7 +215,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Name|Paper|Note|
 |:--|:--|:--|
-|GECko++| [[paper]](https://aclanthology.org/2021.jeptalnrecital-demo.3)|[[website]](https://gecko-app.azurewebsites.net) [[code]](https://github.com/psawa/gecko-app)<br>An English assiting tool. Correction grammatical error and re-ordering sentences automatically.|
+|GECko++| [[GECko+: a Grammatical and Discourse Error Correction Tool]](https://aclanthology.org/2021.jeptalnrecital-demo.3)|[[website]](https://gecko-app.azurewebsites.net) [[code]](https://github.com/psawa/gecko-app)<br>An English assiting tool. Correction grammatical error and re-ordering sentences automatically.|
 
 
 # Other Tools
