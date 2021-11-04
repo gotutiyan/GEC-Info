@@ -176,7 +176,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |SMT based MT + pattern extraction|2017|[[Artificial Error Generation with Machine Translation and Syntactic Patterns]](https://aclanthology.org/W17-5032)||
 |Diverse back translation with noisy beam search|2018|[[Noising and Denoising Natural Language: Diverse Backtranslation for Grammar Correction]](https://aclanthology.org/N18-1057/)||
 |DirectNoise| 2019|[[Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data]](https://aclanthology.org/N19-1014/)|The method was first called "DirectNoise" by [[kiyono+ 2019]](https://aclanthology.org/D19-1119/)?|
-|Explore methods to make pseude data, seed corpus, training settings|2019|[[An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction]](https://aclanthology.org/D19-1119/)|[[code]](https://github.com/butsugiri/gec-pseudodata)|
 |Substituting words using confusion sets|2019|[[Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data]](https://aclanthology.org/W19-4427)|[[synthetic data]](https://github.com/grammatical/pretraining-bea2019/issues/6)<br>BEA-2019: UEDIN-MS|
 |Error+Context Dictionary|2019|[[Improving Precision of Grammatical Error Correction with a Cheat Sheet]](https://aclanthology.org/W19-4425)|BEA-2019: 	Buffalo|
 |Use Google Translate for making pseudo data|2019|[[(Almost) Unsupervised Grammatical Error Correction using a Synthetic Comparable Corpus]](https://aclanthology.org/W19-4413)|BEA-2019: TMU in Low Resource|
@@ -184,6 +183,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Methods for erroneous data generation|2019|[[Erroneous data generation for Grammatical Error Correction]](https://aclanthology.org/W19-4415)|BEA-2019: Shuyao|
 |Wikipedia revision & Wikipedia round-trip translation|2019|[[Corpora Generation for Grammatical Error Correction]](https://aclanthology.org/N19-1333)||
 |Create confusion sets by edit distance, word embeddings, spell-breaking|2019|[[Minimally-Augmented Grammatical Error Correction]](https://aclanthology.org/D19-5546)|Supervised setting is also performed|
+|Explore methods to make pseude data, seed corpus, training settings|2019|[[An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction]](https://aclanthology.org/D19-1119/)|[[code]](https://github.com/butsugiri/gec-pseudodata)|
+||2020|[[Massive Exploration of Pseudo Data for Grammatical Error Correction]](https://ieeexplore.ieee.org/document/9134890)||
 |Control error rates and error types by rule-based corruption and filtered back-translation|2020|[[Controllable Data Synthesis Method for Grammatical Error Correction]](https://arxiv.org/pdf/1909.13302.pdf)||
 |Use machine translation pairs|2020|[[Improving Grammatical Error Correction with Machine Translation Pairs]](https://aclanthology.org/2020.findings-emnlp.30/)||
 |Edit latent representation|2020|[[Improving Grammatical Error Correction with Data Augmentation by Editing Latent Representation]](https://aclanthology.org/2020.coling-main.200/)||
@@ -212,9 +213,11 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Reassess M^2, I-measure, GLEU by comparing human evaluation|2018| [[A Reassessment of Reference-Based Grammatical Error Correction Metrics]](https://aclanthology.org/C18-1231) |[[code]](https://github.com/nusnlp/gecmetrics)|
 |Evaluate four systems (SMT, CNN, LSTM, Transformer) for six corpora (CoNLL13&14, FCE, JFLEG, KJ, ICNALE)|2019| [[Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?]](https://aclanthology.org/N19-1132/) ||
 |Compare CNN, Transformer, PRPN, ON-LSTM as back-translation models|2019|[[The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction]](https://aclanthology.org/W19-4449)||
+|CGOP|2020|[[Comparison of the Evaluation Metrics for Neural Grammatical Error Correction With Overcorrection]](https://ieeexplore.ieee.org/document/9102992)|Metric Considering overcorrection|
 |Create new gold data by post-editing system outputs|2021| [[How Good (really) are Grammatical Error Correction Systems?]](https://aclanthology.org/2021.eacl-main.231/)||
 |Explore whether models have grammatical knowledge with Known-setting and Unknown-setting|2021| [[Do Grammatical Error Correction Models Realize Grammatical Generalization?]](https://aclanthology.org/2021.findings-acl.399/)||
 |Compare CNN, LSTM, transformer or combinations of them as BT models|2021| [[Comparison of Grammatical Error Correction Using Back-Translation Models]](https://aclanthology.org/2021.naacl-srw.16/)||
+
 
 
 # Applications
@@ -259,6 +262,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 ||2014|[[Correcting Preposition Errors in Learner English Using Error Case Frames and Feedback Messages]](https://aclanthology.org/P14-1071)||
+|English grammar checker with feedback in Japanese|2018|[[Grammatical Error Checker for Japanese Learners of English]](https://dl.acm.org/doi/abs/10.1145/3274856.3274885)|This is not a research as a feedback comment generation, but I classify it here for now|
 ||2019|[[Toward a Task of Feedback Comment Generation for Writing Learning]](https://aclanthology.org/D19-1316)||
 ||2020|[[Creating Corpora for Research in Feedback Comment Generation]](https://aclanthology.org/2020.lrec-1.42/)||
 ||2021|[[Shared Task on Feedback Comment Generation for Language Learners]](https://aclanthology.org/2021.inlg-1.35/)||
@@ -274,11 +278,19 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |QALB 2015 Shared Task| 2015| [[The Second QALB Shared Task on Automatic Text Correction for Arabic]](https://aclanthology.org/W15-3204/)||
 |Automatic Error Type Annotation for Arabic| 2021| [[Automatic Error Type Annotation for Arabic]](https://arxiv.org/abs/2109.08068)||
 
+### Bangla
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2021|[[Development of Bangla Spell and Grammar Checkers: Resource Creation and Evaluation]](https://ieeexplore.ieee.org/document/9568876)||
+
 ### Chinese
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |NLPCC-2018 Shared Task| 2018| [[Overview of the NLPCC 2018 Shared Task: Grammatical Error Correction]](http://tcci.ccf.org.cn/conference/2018/papers/EV11.pdf)| [[data]](https://github.com/zhaoyyoo/NLPCC2018_GEC)
+|Two-stage: Spell checker → seq2seq|2019|[[A Two-Stage Model for Chinese Grammatical Error Correction]](https://ieeexplore.ieee.org/document/8830400)||
+|CNN-based seq2seq|2019|[[Chinese Grammatical Error Correction Based on Convolutional Sequence to Sequence Model]](https://ieeexplore.ieee.org/document/8717692)||
 |MaskGEC| 2020| [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/5476)||
 || 2020| [[Chinese Grammatical Error Detection Based on BERT Model]](https://aclanthology.org/2020.nlptea-1.15/)||
 ||2020| [[BERT Enhanced Neural Machine Translation and Sequence Tagging Model for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.8/)||
@@ -301,8 +313,10 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+|Character-level RNN-based seq2seq|2018|[[Automatic Error Correction on Japanese Functional Expressions Using Character-based Neural Machine Translation]](https://aclanthology.org/Y18-1046/)||
 |Constructing retrieval system for Japanese GEC|2019|[[Grammatical-Error-Aware Incorrect Example Retrieval System for Learners of Japanese as a Second Language]](https://aclanthology.org/W19-4431.pdf)||
 |TMU Evaluation Corpus for Japanese Learners|2020| [[Construction of an Evaluation Corpus for Grammatical Error Correction for Learners of Japanese as a Second Language]](https://aclanthology.org/2020.lrec-1.26/)| [[data: Fill this form]](https://docs.google.com/forms/d/e/1FAIpQLSdBOoRuHaDuBuwuuYHrz6ILR6LQqIPw3AUL6XVEmvDFg8z_wQ/viewform)|
+|Non-Autoregressive approach|2020|[[Non-Autoregressive Grammatical Error Correction Toward a Writing Support System]](https://aclanthology.org/2020.nlptea-1.1/)||
 
 ### Romain
 
