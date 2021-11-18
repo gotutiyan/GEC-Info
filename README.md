@@ -110,6 +110,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |First NMT-based approach|2016|[[Grammatical error correction using neural machine translation]](https://aclanthology.org/N16-1042/)||
 |SMEG|2017|[[Systematically Adapting Machine Translation for Grammatical Error Correction]](https://aclanthology.org/W17-5039)|[[code]](https://github.com/cnap/smt-for-gec)|
 |A nested attention (word and char attention)|2017|[[A Nested Attention Neural Hybrid Model for Grammatical Error Correction]](https://aclanthology.org/P17-1070)||
+|Re-ranking N-best sentence (by SMT) with LSTM-based GED|2017|[[Neural Sequence-Labelling Models for Grammatical Error Correction]](https://aclanthology.org/D17-1297/)||
 |CNN-based Encder-Decoder approach| 2018|[[A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17308/16137)|[[code]](https://github.com/nusnlp/mlconvgec2018)|
 |Fluency boosting learning|2018|[[Fluency Boost Learning and Inference for Neural Grammatical Error Correction]](https://aclanthology.org/P18-1097)|[[code]](https://github.com/getao/human-performance-gec)<br>ACL2018|
 |Fluency boosting learning (added round-way error correction)|2018|[[Reaching Human-level Performance in Automatic Grammatical Error Correction: An Empirical Study]](https://arxiv.org/abs/1807.01270)|[[code]](https://github.com/getao/human-performance-gec)<br>Microsoft Research Technical Report|
@@ -218,6 +219,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2018| [[Inherent Biases in Reference-based Evaluation for Grammatical Error Correction]](https://aclanthology.org/P18-1059/)| [[code]](https://github.com/borgr/IBGEC)|
 ||2018|[[Assessing Grammatical Correctness in Language Learning]](https://aclanthology.org/2021.bea-1.15/)||
 |Reassess M^2, I-measure, GLEU by comparing human evaluation|2018| [[A Reassessment of Reference-Based Grammatical Error Correction Metrics]](https://aclanthology.org/C18-1231) |[[code]](https://github.com/nusnlp/gecmetrics)|
+|Quality estimation (and re-ranking using estimated score)|2018|[[Neural Quality Estimation of Grammatical Error Correction]](https://aclanthology.org/D18-1274/)|[[code]](https://github.com/nusnlp/neuqe)|
 |Evaluate four systems (SMT, CNN, LSTM, Transformer) for six corpora (CoNLL13&14, FCE, JFLEG, KJ, ICNALE)|2019| [[Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?]](https://aclanthology.org/N19-1132/) ||
 |Compare CNN, Transformer, PRPN, ON-LSTM as back-translation models|2019|[[The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction]](https://aclanthology.org/W19-4449)||
 |CGOP|2020|[[Comparison of the Evaluation Metrics for Neural Grammatical Error Correction With Overcorrection]](https://ieeexplore.ieee.org/document/9102992)|Metric Considering overcorrection|
@@ -261,6 +263,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |A weighted measure according to crowdsourcing results (for GED)|2011|[[They Can Help: Using Crowdsourcing to Improve the Evaluation of Grammatical Error Detection Systems]](https://aclanthology.org/P11-2089/)||
 || 2018| [[Wronging a Right: Generating Better Errors to Improve Grammatical Error Detection]](https://aclanthology.org/D18-1541/)| [[code]](https://github.com/skasewa/wronging)|
+|Bi-LSTM with contextual word embeddings|2019|[[Context is Key: Grammatical Error Detection with Contextual Word Representations]](https://aclanthology.org/W19-4410/)||
 |Multi-head and multi-layer attention| 2019| [[Multi-Head Multi-Layer Attention to Deep Language Representations for Grammatical Error Detection]](https://arxiv.org/abs/1904.07334)||
 ||2021| [[Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors]](https://arxiv.org/abs/2108.12216)|
 
