@@ -5,21 +5,39 @@ Information will be added sometimes.
 
 It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
-# Overview of this page
+# Overview
 
 * [Surveys](https://github.com/gotutiyan/GEC-Info#surveys)
 * [Shared Tasks](https://github.com/gotutiyan/GEC-Info#shared-tasks)
 * [Datasets](https://github.com/gotutiyan/GEC-Info#datasets)
+  * [For Training](https://github.com/gotutiyan/GEC-Info#for-training-real-data)
+  * [For Evaluation](https://github.com/gotutiyan/GEC-Info#for-evaluation)
 * [Performance Measures](https://github.com/gotutiyan/GEC-Info#performance-measures)
+  * [Reference-based](https://github.com/gotutiyan/GEC-Info#reference-based)
+  * [Reference-less](https://github.com/gotutiyan/GEC-Info#reference-less)
 * [Model / Architectue](https://github.com/gotutiyan/GEC-Info#models--architectures)
+  * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
+  * [Unsupervised](https://github.com/gotutiyan/GEC-Info#unsupervised)
 * [Strategies](https://github.com/gotutiyan/GEC-Info#strategies)
 * [Data Augmentation](https://github.com/gotutiyan/GEC-Info#data-augmentation)
 * [Analyses / Findings](https://github.com/gotutiyan/GEC-Info#analyses--findings)
 * [Other Tools](https://github.com/gotutiyan/GEC-Info#other-tools)
 * [Applications](https://github.com/gotutiyan/GEC-Info#applications)
+* [Projects](https://github.com/gotutiyan/GEC-Info#projects)
 * [Other Materials](https://github.com/gotutiyan/GEC-Info#other-materials)
 * [Related Tasks](https://github.com/gotutiyan/GEC-Info#related-tasks)
+  * [Grammatical Error Detection](https://github.com/gotutiyan/GEC-Info#grammatical-error-detection)
+  * [Feedback Comment Generation](https://github.com/gotutiyan/GEC-Info#feedback-comment-generation)
 * [Other Languages](https://github.com/gotutiyan/GEC-Info#other-languages)
+  * [Arabic](https://github.com/gotutiyan/GEC-Info#arabic)
+  * [Bangla](https://github.com/gotutiyan/GEC-Info#bangla)
+  * [Chinese](https://github.com/gotutiyan/GEC-Info#chinese)
+  * [Czech](https://github.com/gotutiyan/GEC-Info#czech)
+  * [Geek](https://github.com/gotutiyan/GEC-Info#geek)
+  * [German](https://github.com/gotutiyan/GEC-Info#german)
+  * [Japanese](https://github.com/gotutiyan/GEC-Info#japanese)
+  * [Romain](https://github.com/gotutiyan/GEC-Info#romain)
+  * [Russian](https://github.com/gotutiyan/GEC-Info#russian)
 
 
 # Surveys
@@ -311,6 +329,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 || 2020| [[Chinese Grammatical Error Detection Based on BERT Model]](https://aclanthology.org/2020.nlptea-1.15/)||
 ||2020| [[BERT Enhanced Neural Machine Translation and Sequence Tagging Model for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.8/)||
 ||2020|[[Heterogeneous Recycle Generation for Chinese Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.199/)||
+|NLPTEA-2020 Shared Task|2020|[[Overview of NLPTEA-2020 Shared Task for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.4/)||
 |Tail-to-Tail Non-Autoregressive Sequence Prediction| 2021| [[Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical Error Correction]](https://arxiv.org/abs/2106.01609)||
 
 ### Czech
