@@ -15,7 +15,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 * [Performance Measures](https://github.com/gotutiyan/GEC-Info#performance-measures)
   * [Reference-based](https://github.com/gotutiyan/GEC-Info#reference-based)
   * [Reference-less](https://github.com/gotutiyan/GEC-Info#reference-less)
-* [Model / Architectue](https://github.com/gotutiyan/GEC-Info#models--architectures)
+* [Models / Architectues](https://github.com/gotutiyan/GEC-Info#models--architectures)
   * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
   * [Unsupervised](https://github.com/gotutiyan/GEC-Info#unsupervised)
 * [Strategies](https://github.com/gotutiyan/GEC-Info#strategies)
@@ -35,9 +35,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Czech](https://github.com/gotutiyan/GEC-Info#czech)
   * [Geek](https://github.com/gotutiyan/GEC-Info#geek)
   * [German](https://github.com/gotutiyan/GEC-Info#german)
+  * [Hindi](https://github.com/gotutiyan/GEC-Info#hindi)
   * [Japanese](https://github.com/gotutiyan/GEC-Info#japanese)
   * [Romain](https://github.com/gotutiyan/GEC-Info#romain)
   * [Russian](https://github.com/gotutiyan/GEC-Info#russian)
+  * [Spanish](https://github.com/gotutiyan/GEC-Info#spanish)
+  * [Ukrainian](https://github.com/gotutiyan/GEC-Info#ukrainian)
 
 
 # Surveys
@@ -90,6 +93,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |JFLEG|2017| [[JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction]](https://aclanthology.org/E17-2037/)| [[download]](https://github.com/keisks/jfleg)|
 |GMEG-Data|2019| [[Enabling Robust Grammatical Error Correction in New Domains: Data Sets, Metrics, and Analyses]](https://aclanthology.org/Q19-1032)| [[code]](https://github.com/grammarly/GMEG)|
 |CWEB|2020| [[Grammatical Error Correction in Low Error Density Domains: A New Benchmark and Analyses]](https://www.aclweb.org/anthology/2020.emnlp-main.680)| [[download]](https://github.com/SimonHFL/CWEB)|
+|ErAConD|2021|[[ErAConD : Error Annotated Conversational Dialog Dataset for Grammatical Error Correction]](https://arxiv.org/abs/2112.08466)|[[data]](https://github.com/yuanxun-yx/eracond)<br>Training dataset is included.|
 
 
 # Performance measures
@@ -308,9 +312,11 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+|Arabic Learner Corpus|2013|[[Arabic Learner Corpus v1: A New Resource for Arabic Language Research]](https://www.researchgate.net/publication/267600799_Arabic_Learner_Corpus_v1_A_New_Resource_for_Arabic_Language_Research)|[[website]](https://www.arabiclearnercorpus.com/)|
+|QALB|2014|[[Large Scale Arabic Error Annotation: Guidelines and Framework]](https://aclanthology.org/L14-1721/)|[[QALB Project Website]](http://nlp.qatar.cmu.edu/qalb/)|
 |QALB 2014 Shared Task| 2014| [[The First QALB Shared Task on Automatic Text Correction for Arabic]](https://aclanthology.org/W14-3605/)| [[website]](http://nlp.qatar.cmu.edu/qalb/sharedtask/shared_task.html)|
 |QALB 2015 Shared Task| 2015| [[The Second QALB Shared Task on Automatic Text Correction for Arabic]](https://aclanthology.org/W15-3204/)||
-|Automatic Error Type Annotation for Arabic| 2021| [[Automatic Error Type Annotation for Arabic]](https://arxiv.org/abs/2109.08068)||
+|ARETA| 2021| [[Automatic Error Type Annotation for Arabic]](https://arxiv.org/abs/2109.08068)|[[code]](https://github.com/CAMeL-Lab/arabic_error_type_annotation)|
 
 ### Bangla
 
@@ -326,7 +332,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Two-stage: Spell checker → seq2seq|2019|[[A Two-Stage Model for Chinese Grammatical Error Correction]](https://ieeexplore.ieee.org/document/8830400)||
 |CNN-based seq2seq|2019|[[Chinese Grammatical Error Correction Based on Convolutional Sequence to Sequence Model]](https://ieeexplore.ieee.org/document/8717692)||
 |MaskGEC| 2020| [[MaskGEC: Improving Neural Grammatical Error Correction via Dynamic Masking]](https://ojs.aaai.org/index.php/AAAI/article/view/5476)||
-|| 2020| [[Chinese Grammatical Error Detection Based on BERT Model]](https://aclanthology.org/2020.nlptea-1.15/)||
+||2020| [[Chinese Grammatical Error Detection Based on BERT Model]](https://aclanthology.org/2020.nlptea-1.15/)||
 ||2020| [[BERT Enhanced Neural Machine Translation and Sequence Tagging Model for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.8/)||
 ||2020|[[Heterogeneous Recycle Generation for Chinese Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.199/)||
 |NLPTEA-2020 Shared Task|2020|[[Overview of NLPTEA-2020 Shared Task for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.4/)||
@@ -342,13 +348,21 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+|Greek Learner Corpus|2018|[[Stand-off annotation in learner corpora: compiling the Greek Learner Corpus (GLC)]](https://www.researchgate.net/publication/328542477_Stand-off_annotation_in_learner_corpora_compiling_the_Greek_Learner_Corpus_GLC)||
 |ELERRANT|2021|[[ELERRANT: Automatic Grammatical Error Type Classification for Greek]](https://aclanthology.org/2021.ranlp-1.81/)|[[code]](https://github.com/katkorre/elerrant)|
 
 ### German
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
-|Falko-MERLIN GEC Corpus|2018| [[Using Wikipedia Edits in Low Resource Grammatical Error Correction]](https://aclanthology.org/W18-6111/)| [[data]](https://github.com/adrianeboyd/boyd-wnut2018/)|
+|Falko-MERLIN dataset|2018| [[Using Wikipedia Edits in Low Resource Grammatical Error Correction]](https://aclanthology.org/W18-6111/)| [[data]](https://github.com/adrianeboyd/boyd-wnut2018/)|
+
+### Hindi
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2014|[[Detection and correction of non word spelling errors in Hindi language]](https://ieeexplore.ieee.org/abstract/document/6954235)||
+|HiWikiEd dataset|2020|[[Generating Inflectional Errors for Grammatical Error Correction in Hindi]](https://aclanthology.org/2020.aacl-srw.24/)|[[data]](https://github.com/s-ankur/hindi_grammar_correction)|
 
 ### Japanese
 
@@ -371,3 +385,13 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |RULEC-GEC dataset|2019| [[Grammar Error Correction in Morphologically Rich Languages: The Case of Russian]](https://aclanthology.org/Q19-1001/)| [[data]](https://github.com/arozovskaya/RULEC-GEC)|
 |RU-Lang8 dataset|2021| [[New Dataset and Strong Baselines for the Grammatical Error Correction of Russian]](https://aclanthology.org/2021.findings-acl.359/)| [[data]](https://github.com/arozovskaya/RU-Lang8)|
+
+### Spanish
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|COWS-L2H|2020|[[Developing NLP Tools with a New Corpus of Learner Spanish]](https://aclanthology.org/2020.lrec-1.894/)|[[data]](https://github.com/ucdaviscl/cowsl2h)|
+
+### Ukrainian
+Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|UA-GEC|2021|[[UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language]](https://arxiv.org/abs/2103.16997)|[[data]](https://github.com/grammarly/ua-gec)|
