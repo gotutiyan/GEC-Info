@@ -22,6 +22,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 * [Data Augmentation](https://github.com/gotutiyan/GEC-Info#data-augmentation)
 * [Analyses / Findings](https://github.com/gotutiyan/GEC-Info#analyses--findings)
 * [Other Tools](https://github.com/gotutiyan/GEC-Info#other-tools)
+* [Spoken Domain](https://github.com/gotutiyan/GEC-Info#spoken-domain)
 * [Applications](https://github.com/gotutiyan/GEC-Info#applications)
 * [Projects](https://github.com/gotutiyan/GEC-Info#projects)
 * [Other Materials](https://github.com/gotutiyan/GEC-Info#other-materials)
@@ -249,6 +250,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Explore whether models have grammatical knowledge with Known-setting and Unknown-setting|2021| [[Do Grammatical Error Correction Models Realize Grammatical Generalization?]](https://aclanthology.org/2021.findings-acl.399/)||
 |Compare CNN, LSTM, transformer or combinations of them as BT models|2021| [[Comparison of Grammatical Error Correction Using Back-Translation Models]](https://aclanthology.org/2021.naacl-srw.16/)||
 
+# Spoken Domain
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|Detection|2019|[AUTOMATIC GRAMMATICAL ERROR DETECTION OF NON-NATIVE SPOKEN LEARNER ENGLISH](https://www.repository.cam.ac.uk/bitstream/handle/1810/289493/ICASSP2019_SS__GED-11.pdf?)||
+|Detection|2020|[Grammatical error detection in transcriptions of spoken English](https://aclanthology.org/2020.coling-main.195.pdf)||
+|Correction, disfluency detection model|2020|[Spoken Language ‘Grammatical Error Correction’](http://www.interspeech2020.org/uploadfile/pdf/Thu-1-8-1.pdf)||
 
 
 # Applications
@@ -280,7 +287,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |NLP-progress|| [[website]](http://nlpprogress.com/english/grammatical_error_correction.html)<br>The performance ranking on some datasets.|
 |A Crash Course in Automatic Grammatical Error Correction| [[paper]](https://www.aclweb.org/anthology/2020.coling-tutorials.6/)| [[materials]](https://github.com/grammatical/coling2020-tutorial)<br>The tutorial about GEC in COLING2020.|
 |Chunngai/gec-papers ||[[github]](https://github.com/Chunngai/gec-papers/blob/master/README.md)<br>The papers are being compiled around 2019-2020?|
-|私のブックマーク 「自然言語処理による文法誤り訂正|2018|[[website]](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol33-no6/) [[pdf]](https://www.jstage.jst.go.jp/article/jjsai/33/6/33_893/_pdf/-char/ja)|Written in Japanese. 2011-2018ごろの文法誤り訂正の動向を追うのに有用．|
 
 
 # Related Tasks
@@ -343,6 +349,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |AKCES-GEC dataset| 2019| [[Grammatical Error Correction in Low-Resource Scenarios]](https://aclanthology.org/D19-5545)| [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)|
+|Grammar Error Correction Corpus for Czech (GECCC)|2022|[Czech Grammar Error Correction with a Large and Diverse Corpus](https://arxiv.org/abs/2201.05590)|[[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4639)|
 
 ### Geek
 
