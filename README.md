@@ -15,6 +15,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 * [Performance Measures](https://github.com/gotutiyan/GEC-Info#performance-measures)
   * [Reference-based](https://github.com/gotutiyan/GEC-Info#reference-based)
   * [Reference-less](https://github.com/gotutiyan/GEC-Info#reference-less)
+* [Quality Estimation](https://github.com/gotutiyan/GEC-Info#quality-estimation)
 * [Models / Architectues](https://github.com/gotutiyan/GEC-Info#models--architectures)
   * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
   * [Unsupervised](https://github.com/gotutiyan/GEC-Info#unsupervised)
@@ -38,6 +39,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [German](https://github.com/gotutiyan/GEC-Info#german)
   * [Hindi](https://github.com/gotutiyan/GEC-Info#hindi)
   * [Japanese](https://github.com/gotutiyan/GEC-Info#japanese)
+  * [Lithuanian]((https://github.com/gotutiyan/GEC-Info#lithuanian)
   * [Romain](https://github.com/gotutiyan/GEC-Info#romain)
   * [Russian](https://github.com/gotutiyan/GEC-Info#russian)
   * [Spanish](https://github.com/gotutiyan/GEC-Info#spanish)
@@ -120,6 +122,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |SOME|2020| [[SOME: Reference-less Sub-Metrics Optimized for Manual Evaluations of Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.573)| [[code]](https://github.com/kokeman/SOME)|
 |Scribendi Score|2021|[[Is this the end of the gold standard? A straightforward reference-less grammatical error correction metric]](https://aclanthology.org/2021.emnlp-main.239/)|[[Unofficial code]](https://github.com/gotutiyan/scribendi_score)|
 
+# Quality Estimation
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2022|[Proficiency Matters Quality Estimation in Grammatical Error Correction](https://arxiv.org/abs/2201.06199)||
+
 
 # Models / Architectures
 
@@ -159,7 +167,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |BART-based|2020|[[Stronger Baselines for Grammatical Error Correction Using a Pretrained Encoder-Decoder Model]](https://aclanthology.org/2020.aacl-main.83)|[[code]](https://github.com/Katsumata420/generic-pretrained-GEC)|
 |VERNet|2021|[[Neural Quality Estimation with Multiple Hypotheses for Grammatical Error Correction]](https://aclanthology.org/2021.naacl-main.429)|[[code]](https://github.com/thunlp/VERNet)|
 |Shallow Aggressive Decoding|2021|[[Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding]](https://aclanthology.org/2021.acl-long.462/)|[[code]](https://github.com/AutoTemp/Shallow-Aggressive-Decoding)|
-|GECToR large|2021|[[Improving Sequence Tagging for Grammatical Error Correction]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|[[code]](https://github.com/MaksTarnavskyi/gector-large)|
 |T5-based|2021|[[A Simple Recipe for Multilingual Grammatical Error Correction]](https://arxiv.org/abs/2106.03830)|[[code]](https://github.com/google-research-datasets/clang8)|
 |GAN-like sequence labeling|2021|[[Grammatical Error Correction as GAN-like Sequence Labeling]](https://aclanthology.org/2021.findings-acl.290/)||
 |Diversity-Driven Combination (DDC)|2021|[[Diversity-Driven Combination for Grammatical Error Correction]](https://arxiv.org/abs/2110.15149)|[[code]](https://github.com/nusnlp/gec-ddc)|
@@ -171,6 +178,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Dependent Self-Attention (DSA)|2021|[[Grammatical Error Correction with Dependency Distance]](https://dl.acm.org/doi/abs/10.1145/3459637.3482348)||
 ||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://arxiv.org/abs/2203.07085)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://arxiv.org/abs/2203.09136)|[[code]](https://github.com/deeplearnxmu/tmtc)|
+|GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://arxiv.org/abs/2203.13064)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
 
 ### Unsupervised
 
@@ -251,6 +259,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Create new gold data by post-editing system outputs|2021| [[How Good (really) are Grammatical Error Correction Systems?]](https://aclanthology.org/2021.eacl-main.231/)||
 |Explore whether models have grammatical knowledge with Known-setting and Unknown-setting|2021| [[Do Grammatical Error Correction Models Realize Grammatical Generalization?]](https://aclanthology.org/2021.findings-acl.399/)||
 |Compare CNN, LSTM, transformer or combinations of them as BT models|2021| [[Comparison of Grammatical Error Correction Using Back-Translation Models]](https://aclanthology.org/2021.naacl-srw.16/)||
+||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://arxiv.org/abs/2204.00471)||
 
 # Spoken Domain
 |Keywords / Overview|Year|Paper|Note|
@@ -382,6 +391,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Constructing retrieval system for Japanese GEC|2019|[[Grammatical-Error-Aware Incorrect Example Retrieval System for Learners of Japanese as a Second Language]](https://aclanthology.org/W19-4431.pdf)||
 |TMU Evaluation Corpus for Japanese Learners|2020| [[Construction of an Evaluation Corpus for Grammatical Error Correction for Learners of Japanese as a Second Language]](https://aclanthology.org/2020.lrec-1.26/)| [[data: Fill this form]](https://docs.google.com/forms/d/e/1FAIpQLSdBOoRuHaDuBuwuuYHrz6ILR6LQqIPw3AUL6XVEmvDFg8z_wQ/viewform)|
 |Non-Autoregressive approach|2020|[[Non-Autoregressive Grammatical Error Correction Toward a Writing Support System]](https://aclanthology.org/2020.nlptea-1.1/)||
+||2022|[Construction of a Quality Estimation Dataset for Automatic Evaluation of Japanese Grammatical Error Correction](https://arxiv.org/abs/2201.08038)||
+
+### Lithuanian
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2022|[Towards Lithuanian grammatical error correction](https://arxiv.org/abs/2203.09963)|[[code]](https://github.com/lukasstankevicius/towards-lithuanian-grammatical-error-correction)|
 
 ### Romain
 
