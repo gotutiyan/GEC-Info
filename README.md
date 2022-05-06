@@ -183,6 +183,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Constrastive Leaning approach|2021|[[Grammatical Error Correction with Contrastive Learning in Low Error Density Domains]](https://aclanthology.org/2021.findings-emnlp.419/)|[[code]](https://github.com/nusnlp/geccl)|
 |Sequence Span Rewriting|2021|[[Improving Sequence-to-Sequence Pre-training via Sequence Span Rewriting]](https://aclanthology.org/2021.emnlp-main.45/)||
 |Dependent Self-Attention (DSA)|2021|[[Grammatical Error Correction with Dependency Distance]](https://dl.acm.org/doi/abs/10.1145/3459637.3482348)||
+||2021|[Efficient Grammatical Error Correction with Hierarchical Error Detections and Correction](https://ieeexplore.ieee.org/document/9590395)|[[code]](https://github.com/AnticPan/Hierarchical-GEC)|
+|A GEC model using only 11.6MB|2021|[An efficient system for grammatical error correction on mobile devices](https://ieeexplore.ieee.org/document/9364435)||
 ||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://arxiv.org/abs/2203.07085)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://arxiv.org/abs/2203.09136)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://arxiv.org/abs/2203.13064)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
@@ -366,6 +368,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |NLPTEA-2020 Shared Task|2020|[[Overview of NLPTEA-2020 Shared Task for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.4/)||
 |Tail-to-Tail Non-Autoregressive Sequence Prediction| 2021| [[Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical Error Correction]](https://aclanthology.org/2021.acl-long.385/)||
 ||2021|["Is Whole Word Masking Always Better for Chinese BERT?": Probing on Chinese Grammatical Error Correction](https://arxiv.org/abs/2203.00286)||
+||2022|[Pre-Training-Based Grammatical Error Correction Model for the Written Language of Chinese Hearing Impaired Students](https://ieeexplore.ieee.org/document/9734023)||
+||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://arxiv.org/abs/2204.10994)|[[code]](https://github.com/hillzhang1999/mucgec)|
 
 ### Czech
 
