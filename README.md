@@ -185,9 +185,10 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Dependent Self-Attention (DSA)|2021|[[Grammatical Error Correction with Dependency Distance]](https://dl.acm.org/doi/abs/10.1145/3459637.3482348)||
 ||2021|[Efficient Grammatical Error Correction with Hierarchical Error Detections and Correction](https://ieeexplore.ieee.org/document/9590395)|[[code]](https://github.com/AnticPan/Hierarchical-GEC)|
 |A GEC model using only 11.6MB|2021|[An efficient system for grammatical error correction on mobile devices](https://ieeexplore.ieee.org/document/9364435)||
-||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://arxiv.org/abs/2203.07085)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
-||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://arxiv.org/abs/2203.09136)|[[code]](https://github.com/deeplearnxmu/tmtc)|
-|GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://arxiv.org/abs/2203.13064)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
+||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://aclanthology.org/2022.acl-long.496/)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
+||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
+|GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
+|Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
 
 ### Unsupervised
 
@@ -270,7 +271,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Create new gold data by post-editing system outputs|2021| [[How Good (really) are Grammatical Error Correction Systems?]](https://aclanthology.org/2021.eacl-main.231/)||
 |Explore whether models have grammatical knowledge with Known-setting and Unknown-setting|2021| [[Do Grammatical Error Correction Models Realize Grammatical Generalization?]](https://aclanthology.org/2021.findings-acl.399/)||
 |Compare CNN, LSTM, transformer or combinations of them as BT models|2021| [[Comparison of Grammatical Error Correction Using Back-Translation Models]](https://aclanthology.org/2021.naacl-srw.16/)||
-||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://arxiv.org/abs/2204.00471)||
+||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://aclanthology.org/2022.acl-long.591/)||
 
 # Spoken Domain
 
@@ -323,7 +324,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 || 2018| [[Wronging a Right: Generating Better Errors to Improve Grammatical Error Detection]](https://aclanthology.org/D18-1541/)| [[code]](https://github.com/skasewa/wronging)|
 |Bi-LSTM with contextual word embeddings|2019|[[Context is Key: Grammatical Error Detection with Contextual Word Representations]](https://aclanthology.org/W19-4410/)||
 |Multi-head and multi-layer attention| 2019| [[Multi-Head Multi-Layer Attention to Deep Language Representations for Grammatical Error Detection]](https://arxiv.org/abs/1904.07334)||
-||2021| [[Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors]](https://arxiv.org/abs/2108.12216)|
+||2021| [[Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors]](https://aclanthology.org/2022.findings-acl.324/)||
 
 ### Feedback Comment Generation
 
@@ -367,9 +368,10 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2020|[[Heterogeneous Recycle Generation for Chinese Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.199/)||
 |NLPTEA-2020 Shared Task|2020|[[Overview of NLPTEA-2020 Shared Task for Chinese Grammatical Error Diagnosis]](https://aclanthology.org/2020.nlptea-1.4/)||
 |Tail-to-Tail Non-Autoregressive Sequence Prediction| 2021| [[Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical Error Correction]](https://aclanthology.org/2021.acl-long.385/)||
-||2021|["Is Whole Word Masking Always Better for Chinese BERT?": Probing on Chinese Grammatical Error Correction](https://arxiv.org/abs/2203.00286)||
+||2021|["Is Whole Word Masking Always Better for Chinese BERT?": Probing on Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.1/)||
 ||2022|[Pre-Training-Based Grammatical Error Correction Model for the Written Language of Chinese Hearing Impaired Students](https://ieeexplore.ieee.org/document/9734023)||
 ||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://arxiv.org/abs/2204.10994)|[[code]](https://github.com/hillzhang1999/mucgec)|
+||2022|[Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation](https://aclanthology.org/2022.findings-acl.233/)|[[code]](https://github.com/tc-yue/DA_CGED)|
 
 ### Czech
 
