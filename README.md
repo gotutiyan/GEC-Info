@@ -22,7 +22,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Reference-based](https://github.com/gotutiyan/GEC-Info#reference-based)
   * [Reference-less](https://github.com/gotutiyan/GEC-Info#reference-less)
 * [Quality Estimation](https://github.com/gotutiyan/GEC-Info#quality-estimation)
-* [Models / Architectues](https://github.com/gotutiyan/GEC-Info#models--architectures)
+* [Models / Methods](https://github.com/gotutiyan/GEC-Info#models--methods)
   * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
   * [Unsupervised](https://github.com/gotutiyan/GEC-Info#unsupervised)
 * [Strategies](https://github.com/gotutiyan/GEC-Info#strategies)
@@ -103,7 +103,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |JFLEG|2017| [[JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction]](https://aclanthology.org/E17-2037/)| [[download]](https://github.com/keisks/jfleg)|
 |GMEG-Data|2019| [[Enabling Robust Grammatical Error Correction in New Domains: Data Sets, Metrics, and Analyses]](https://aclanthology.org/Q19-1032)| [[code]](https://github.com/grammarly/GMEG)|
 |CWEB|2020| [[Grammatical Error Correction in Low Error Density Domains: A New Benchmark and Analyses]](https://www.aclweb.org/anthology/2020.emnlp-main.680)| [[download]](https://github.com/SimonHFL/CWEB)|
-|ErAConD|2021|[[ErAConD : Error Annotated Conversational Dialog Dataset for Grammatical Error Correction]](https://arxiv.org/abs/2112.08466)|[[data]](https://github.com/yuanxun-yx/eracond)<br>Training dataset is included.|
+|ErAConD|2021|[[ErAConD : Error Annotated Conversational Dialog Dataset for Grammatical Error Correction]](https://aclanthology.org/2022.naacl-main.5/)|[[data]](https://github.com/yuanxun-yx/eracond)<br>Training dataset is also included.|
 
 
 # Performance measures
@@ -189,6 +189,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
 |Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
+||2022|[Frustratingly Easy System Combination for Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.143/)|[[code]](https://github.com/nusnlp/esc)|
 
 ### Unsupervised
 
@@ -280,6 +281,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Detection|2019|[AUTOMATIC GRAMMATICAL ERROR DETECTION OF NON-NATIVE SPOKEN LEARNER ENGLISH](https://www.repository.cam.ac.uk/bitstream/handle/1810/289493/ICASSP2019_SS__GED-11.pdf?)||
 |Detection|2020|[Grammatical error detection in transcriptions of spoken English](https://aclanthology.org/2020.coling-main.195.pdf)||
 |Correction, disfluency detection model|2020|[Spoken Language ‘Grammatical Error Correction’](http://www.interspeech2020.org/uploadfile/pdf/Thu-1-8-1.pdf)||
+||2022|[On Assessing and Developing Spoken ’Grammatical Error Correction’ Systems](https://aclanthology.org/2022.bea-1.9/)||
 
 
 # Applications
@@ -370,7 +372,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Tail-to-Tail Non-Autoregressive Sequence Prediction| 2021| [[Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical Error Correction]](https://aclanthology.org/2021.acl-long.385/)||
 ||2021|["Is Whole Word Masking Always Better for Chinese BERT?": Probing on Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.1/)||
 ||2022|[Pre-Training-Based Grammatical Error Correction Model for the Written Language of Chinese Hearing Impaired Students](https://ieeexplore.ieee.org/document/9734023)||
-||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://arxiv.org/abs/2204.10994)|[[code]](https://github.com/hillzhang1999/mucgec)|
+||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.227/)|[[code]](https://github.com/hillzhang1999/mucgec)|
 ||2022|[Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation](https://aclanthology.org/2022.findings-acl.233/)|[[code]](https://github.com/tc-yue/DA_CGED)|
 
 ### Czech
