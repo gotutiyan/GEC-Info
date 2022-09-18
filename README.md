@@ -25,6 +25,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 * [Models / Methods](https://github.com/gotutiyan/GEC-Info#models--methods)
   * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
   * [Unsupervised](https://github.com/gotutiyan/GEC-Info#unsupervised)
+* [Ensemble Methods](https://github.com/gotutiyan/GEC-Info#ensemble-methods)
 * [Strategies](https://github.com/gotutiyan/GEC-Info#strategies)
 * [Data Augmentation](https://github.com/gotutiyan/GEC-Info#data-augmentation)
 * [Analyses / Findings](https://github.com/gotutiyan/GEC-Info#analyses--findings)
@@ -143,7 +144,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |Phrase-based SMT| 2016| [[Phrase-based Machine Translation is State-of-the-Art for Automatic Grammatical Error Correction]](https://aclanthology.org/D16-1161/)| [[code]](https://github.com/grammatical/baselines-emnlp2016)|
-|Neural reinforcement learning|2017|[[Grammatical Error Correction with Neural Reinforcement Learning]](https://aclanthology.org/I17-2062/)||
+|Neural reinforcement learning|2017|[[Grammatical Error Correction with Neural Reinforcement Learning]](https://aclanthology.org/I17-2062/)|[[code]](https://github.com/keisks/nematus/tree/nrl-gleu)|
 |Word-level SMT enhanced NNJMs + char-based SMT|2017|[[Connecting the Dots: Towards Human-Level Grammatical Error Correction]](https://aclanthology.org/W17-5037)|[[code]](https://github.com/nusnlp/smtgec2017)|
 |First NMT-based approach|2016|[[Grammatical error correction using neural machine translation]](https://aclanthology.org/N16-1042/)||
 |SMEG|2017|[[Systematically Adapting Machine Translation for Grammatical Error Correction]](https://aclanthology.org/W17-5039)|[[code]](https://github.com/cnap/smt-for-gec)|
@@ -176,8 +177,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Shallow Aggressive Decoding|2021|[[Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding]](https://aclanthology.org/2021.acl-long.462/)|[[code]](https://github.com/AutoTemp/Shallow-Aggressive-Decoding)|
 |T5-based|2021|[[A Simple Recipe for Multilingual Grammatical Error Correction]](https://arxiv.org/abs/2106.03830)|[[code]](https://github.com/google-research-datasets/clang8)|
 |GAN-like sequence labeling|2021|[[Grammatical Error Correction as GAN-like Sequence Labeling]](https://aclanthology.org/2021.findings-acl.290/)||
-|Diversity-Driven Combination (DDC)|2021|[[Diversity-Driven Combination for Grammatical Error Correction]](https://arxiv.org/abs/2110.15149)|[[code]](https://github.com/nusnlp/gec-ddc)|
-|Select a system for each error type with IP|2021|[[System Combination for Grammatical Error Correction Based on Integer Programming]](https://aclanthology.org/2021.ranlp-1.94/)|[[code]](https://github.com/nusnlp/gec_ip)|
 |Use multiclass GED for Transformer seq2seq and reranking|2021|[[Multi-Class Grammatical Error Detection for Correction: A Tale of Two Systems]](https://aclanthology.org/2021.emnlp-main.687/)||
 |GEC for writing improvement model adapted to the writer’s L1|2021|[[Beyond Grammatical Error Correction: Improving L1-influenced research writing in English using pre-trained encoder-decoder models]](https://aclanthology.org/2021.findings-emnlp.216/)|[[code]](https://github.com/gzomer/BeyondGEC)|
 |Constrastive Leaning approach|2021|[[Grammatical Error Correction with Contrastive Learning in Low Error Density Domains]](https://aclanthology.org/2021.findings-emnlp.419/)|[[code]](https://github.com/nusnlp/geccl)|
@@ -189,7 +188,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
 |Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
-||2022|[Frustratingly Easy System Combination for Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.143/)|[[code]](https://github.com/nusnlp/esc)|
 
 ### Unsupervised
 
@@ -203,6 +201,17 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Create erroneous data from monolingual data|2019|[[Minimally-Augmented Grammatical Error Correction]](https://aclanthology.org/D19-5546)|Supervised setting is also performed|
 |LM-Critic| 2021| [[LM-Critic: Language Models for Unsupervised Grammatical Error Correction]](https://aclanthology.org/2021.emnlp-main.611/)| [[code]](https://github.com/michiyasunaga/LM-Critic)<br>Supervised setting is also performed|
 
+# Ensemble Methods
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|Use MENT|2014|[System Combination for Grammatical Error Correction](https://aclanthology.org/D14-1102/)||
+||2016|[Grammatical Error Correction: Machine Translation and Classifiers](https://aclanthology.org/P16-1208)||
+||2019|[[Learning to combine Grammatical Error Corrections]](https://aclanthology.org/W19-4414/)|[[code]](https://github.com/IBM/learning-to-combine-grammatical-error-corrections)|
+|Diversity-Driven Combination (DDC)|2021|[[Diversity-Driven Combination for Grammatical Error Correction]](https://arxiv.org/abs/2110.15149)|[[code]](https://github.com/nusnlp/gec-ddc)|
+|Select a system for each error type with IP|2021|[[System Combination for Grammatical Error Correction Based on Integer Programming]](https://aclanthology.org/2021.ranlp-1.94/)|[[code]](https://github.com/nusnlp/gec_ip)|
+||2022|[Frustratingly Easy System Combination for Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.143/)|[[code]](https://github.com/nusnlp/esc)|
+
 
 # Strategies
 
@@ -210,7 +219,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |Some methods that can be adapted neural MT|2018|[[Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task]](https://aclanthology.org/N18-1055/)|[[code]](https://github.com/grammatical/neural-naacl2018)|
 |Iterative decoding|2018|[[Weakly Supervised Grammatical Error Correction using Iterative Decoding]](https://arxiv.org/abs/1811.01710)||
-|Combine systems automatically|2019|[[Learning to combine Grammatical Error Corrections]](https://aclanthology.org/W19-4414/)|[[code]](https://github.com/IBM/learning-to-combine-grammatical-error-corrections)|
 ||2019|[Controlling Grammatical Error Correction Using Word Edit Rate](https://aclanthology.org/P19-2020/)||
 |Add adversarial examples continually|2020|[[Improving Grammatical Error Correction Models with Purpose-Built Adversarial Examples]](https://aclanthology.org/2020.emnlp-main.228)||
 |Cross-lingual Transfer Learning|2020|[[Cross-lingual Transfer Learning for Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.415)||
@@ -240,7 +248,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Edit latent representation|2020|[[Improving Grammatical Error Correction with Data Augmentation by Editing Latent Representation]](https://aclanthology.org/2020.coling-main.200/)||
 |Consider learner’s error tendency|2020|[[Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner’s Error Tendency]](https://aclanthology.org/2020.acl-srw.5/)||
 |Tagged corruption|2021|[[Synthetic Data Generation for Grammatical Error Correction with Tagged Corruption Models]](https://aclanthology.org/2021.bea-1.4/)|[[code]](https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction)|
-|Use 188 modules|2021|[[Various Errors Improve Neural Grammatical Error Correction]](https://github.com/nymwa/PACLIC_2021_Various/blob/main/paper/paclic35.pdf)|[[code]](https://github.com/nymwa/PACLIC_2021_Various)|
+|Use 188 modules|2021|[[Various Errors Improve Neural Grammatical Error Correction]](https://aclanthology.org/2021.paclic-1.27/)|[[code]](https://github.com/shotakoyama/arteraro)|
 |Use real error petterns and linguistic knowledge|2021|[[Data Augmentation of Incorporating Real Error Patterns and Linguistic Knowledge for Grammatical Error Correction]](https://aclanthology.org/2021.conll-1.17/)||
 |Divide non-English sentence into chunks → translate to English for each of them → concatenate|2021|[[Grammatical Error Generation Based on Translated Fragments]](https://aclanthology.org/2021.nodalida-main.44/)||
 
@@ -256,6 +264,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2011|[Algorithm Selection and Model Adaptation for ESL Correction Tasks](https://aclanthology.org/P11-1093.pdf)||
 |Re-rank the CoNLL14 systems by human evaluation|2015| [[Human Evaluation of Grammatical Error Correction Systems]](https://aclanthology.org/D15-1052/)| [[code]](https://github.com/grammatical/evaluation/)|
 ||2015| [[How Far are We from Fully Automatic High Quality Grammatical Error Correction?]](https://aclanthology.org/P15-1068)||
 |Human annotation focused on fluency |2016| [[Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality]](https://aclanthology.org/Q16-1013)|[[code]](https://github.com/keisks/reassess-gec)|
@@ -278,9 +287,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
-|Detection|2019|[AUTOMATIC GRAMMATICAL ERROR DETECTION OF NON-NATIVE SPOKEN LEARNER ENGLISH](https://www.repository.cam.ac.uk/bitstream/handle/1810/289493/ICASSP2019_SS__GED-11.pdf?)||
-|Detection|2020|[Grammatical error detection in transcriptions of spoken English](https://aclanthology.org/2020.coling-main.195.pdf)||
-|Correction, disfluency detection model|2020|[Spoken Language ‘Grammatical Error Correction’](http://www.interspeech2020.org/uploadfile/pdf/Thu-1-8-1.pdf)||
+||2019|[AUTOMATIC GRAMMATICAL ERROR DETECTION OF NON-NATIVE SPOKEN LEARNER ENGLISH](https://www.repository.cam.ac.uk/bitstream/handle/1810/289493/ICASSP2019_SS__GED-11.pdf?)||
+||2020|[Grammatical error detection in transcriptions of spoken English](https://aclanthology.org/2020.coling-main.195.pdf)||
+|Disfluency detection (DD) model|2020|[Spoken Language ‘Grammatical Error Correction’](http://www.interspeech2020.org/uploadfile/pdf/Thu-1-8-1.pdf)||
 ||2022|[On Assessing and Developing Spoken ’Grammatical Error Correction’ Systems](https://aclanthology.org/2022.bea-1.9/)||
 
 
