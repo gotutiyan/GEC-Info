@@ -143,10 +143,23 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2014|[Grammatical error correction using hybrid systems and type filtering](https://aclanthology.org/W14-1702/)|CoNLL2014: CAMB|
+||2014|[The AMU System in the CoNLL-2014 Shared Task: Grammatical Error Correction by Data-Intensive and Feature-Rich Statistical Machine Translation](https://aclanthology.org/W14-1703/)|CoNLL2014: AMU|
+||2014|[The Illinois-Columbia System in the CoNLL-2014 Shared Task](https://aclanthology.org/W14-1704/)|CoNLL2014: CUUI|
+||2014|[RACAI GEC – A hybrid approach to Grammatical Error Correction](https://aclanthology.org/W14-1705)|CoNLL2014: RAC|
+||2014|[Grammatical Error Detection Using Tagger Disagreement](https://aclanthology.org/W14-1706/)|CoNLL2014: UFC|
+||2014|[CoNLL 2014 Shared Task: Grammatical Error Correction with a Syntactic N-gram Language Model from a Big Corpora](https://aclanthology.org/W14-1707/)|CoNLL2014: IPN|
+||2014|[Tuning a Grammar Correction System for Increased Precision](https://aclanthology.org/W14-1708/)|CoNLL2014: IITB|
+||2014|[POSTECH Grammatical Error Correction System in the CoNLL-2014 Shared Task](https://aclanthology.org/W14-1709/)|CoNLL2014: POST|
+||2014|[Grammatical Error Detection and Correction using a Single Maximum Entropy Model](https://aclanthology.org/W14-1710/)|CoNLL2014: SJTU|
+||2014|[Factored Statistical Machine Translation for Grammatical Error Correction](https://aclanthology.org/W14-1711/)|CoNLL2014: UMC|
+||2014|[NTHU at the CoNLL-2014 Shared Task](https://aclanthology.org/W14-1712/)|CoNLL2014: NTHU|
+||2014|[A Unified Framework for Grammar Error Correction](https://aclanthology.org/W14-1713/)|CoNLL2014: PKU|
 |Phrase-based SMT| 2016| [[Phrase-based Machine Translation is State-of-the-Art for Automatic Grammatical Error Correction]](https://aclanthology.org/D16-1161/)| [[code]](https://github.com/grammatical/baselines-emnlp2016)|
 |Neural reinforcement learning|2017|[[Grammatical Error Correction with Neural Reinforcement Learning]](https://aclanthology.org/I17-2062/)|[[code]](https://github.com/keisks/nematus/tree/nrl-gleu)|
 |Word-level SMT enhanced NNJMs + char-based SMT|2017|[[Connecting the Dots: Towards Human-Level Grammatical Error Correction]](https://aclanthology.org/W17-5037)|[[code]](https://github.com/nusnlp/smtgec2017)|
 |First NMT-based approach|2016|[[Grammatical error correction using neural machine translation]](https://aclanthology.org/N16-1042/)||
+||2016|[Neural Network Translation Models for Grammatical Error Correction](https://arxiv.org/abs/1606.00189)||
 |SMEG|2017|[[Systematically Adapting Machine Translation for Grammatical Error Correction]](https://aclanthology.org/W17-5039)|[[code]](https://github.com/cnap/smt-for-gec)|
 |A nested attention (word and char attention)|2017|[[A Nested Attention Neural Hybrid Model for Grammatical Error Correction]](https://aclanthology.org/P17-1070)||
 |Re-ranking N-best sentence (by SMT) with LSTM-based GED|2017|[[Neural Sequence-Labelling Models for Grammatical Error Correction]](https://aclanthology.org/D17-1297/)||
