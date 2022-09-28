@@ -143,6 +143,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2006|[Correcting ESL Errors Using Phrasal SMT Techniques](https://aclanthology.org/P06-1032/)||
+||2009|[Using First and Second Language Models to Correct Preposition Errors in Second Language Authoring](https://aclanthology.org/W09-2110/)||
+||2010|[Generating Confusion Sets for Context-Sensitive Error Correction](https://aclanthology.org/D10-1094/)||
+||2011|[Correcting Semantic Collocation Errors with L1-induced Paraphrases](https://aclanthology.org/D11-1010/)||
+||2012|[Tense and Aspect Error Correction for ESL Learners Using Global Context](https://aclanthology.org/P12-2039/)||
+||2012|[Exploring Grammatical Error Correction with Not-So-Crummy Machine Translation](https://aclanthology.org/W12-2005/)||
 ||2014|[Grammatical error correction using hybrid systems and type filtering](https://aclanthology.org/W14-1702/)|CoNLL2014: CAMB|
 ||2014|[The AMU System in the CoNLL-2014 Shared Task: Grammatical Error Correction by Data-Intensive and Feature-Rich Statistical Machine Translation](https://aclanthology.org/W14-1703/)|CoNLL2014: AMU|
 ||2014|[The Illinois-Columbia System in the CoNLL-2014 Shared Task](https://aclanthology.org/W14-1704/)|CoNLL2014: CUUI|
@@ -155,6 +161,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2014|[Factored Statistical Machine Translation for Grammatical Error Correction](https://aclanthology.org/W14-1711/)|CoNLL2014: UMC|
 ||2014|[NTHU at the CoNLL-2014 Shared Task](https://aclanthology.org/W14-1712/)|CoNLL2014: NTHU|
 ||2014|[A Unified Framework for Grammar Error Correction](https://aclanthology.org/W14-1713/)|CoNLL2014: PKU|
+||2016|[Exploiting N-Best Hypotheses to Improve an SMT Approach to Grammatical Error Correction](https://arxiv.org/abs/1606.00210)||
+||2016|[Adapting Grammatical Error Correction Based on the Native Language of Writers with Neural Network Joint Models](https://aclanthology.org/D16-1195/)
 |Phrase-based SMT| 2016| [[Phrase-based Machine Translation is State-of-the-Art for Automatic Grammatical Error Correction]](https://aclanthology.org/D16-1161/)| [[code]](https://github.com/grammatical/baselines-emnlp2016)|
 |Neural reinforcement learning|2017|[[Grammatical Error Correction with Neural Reinforcement Learning]](https://aclanthology.org/I17-2062/)|[[code]](https://github.com/keisks/nematus/tree/nrl-gleu)|
 |Word-level SMT enhanced NNJMs + char-based SMT|2017|[[Connecting the Dots: Towards Human-Level Grammatical Error Correction]](https://aclanthology.org/W17-5037)|[[code]](https://github.com/nusnlp/smtgec2017)|
@@ -200,7 +208,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://aclanthology.org/2022.acl-long.496/)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
-|Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
 
 ### Unsupervised
 
@@ -230,13 +237,16 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2012|[A Beam-Search Decoder for Grammatical Error Correction](https://aclanthology.org/D12-1052/)||
+||2016|[Discriminative Reranking for Grammatical Error Correction with Statistical Machine Translation](https://aclanthology.org/N16-1133/)||
+||2016|[Candidate re-ranking for SMT-based grammatical error correction](https://aclanthology.org/W16-0530/)||
 |Some methods that can be adapted neural MT|2018|[[Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task]](https://aclanthology.org/N18-1055/)|[[code]](https://github.com/grammatical/neural-naacl2018)|
 |Iterative decoding|2018|[[Weakly Supervised Grammatical Error Correction using Iterative Decoding]](https://arxiv.org/abs/1811.01710)||
 ||2019|[Controlling Grammatical Error Correction Using Word Edit Rate](https://aclanthology.org/P19-2020/)||
 |Add adversarial examples continually|2020|[[Improving Grammatical Error Correction Models with Purpose-Built Adversarial Examples]](https://aclanthology.org/2020.emnlp-main.228)||
 |Cross-lingual Transfer Learning|2020|[[Cross-lingual Transfer Learning for Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.415)||
 |Data Weighted Training Strategies|2020|[[Data Weighted Training Strategies for Grammatical Error Correction]](https://aclanthology.org/2020.tacl-1.41/)||
-
+|Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
 
 # Data Augmentation
 
@@ -278,6 +288,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 ||2011|[Algorithm Selection and Model Adaptation for ESL Correction Tasks](https://aclanthology.org/P11-1093.pdf)||
+||2012|[The Effect of Learner Corpus Size in Grammatical Error Correction of ESL Writings](https://aclanthology.org/C12-2084/)||
 |Re-rank the CoNLL14 systems by human evaluation|2015| [[Human Evaluation of Grammatical Error Correction Systems]](https://aclanthology.org/D15-1052/)| [[code]](https://github.com/grammatical/evaluation/)|
 ||2015| [[How Far are We from Fully Automatic High Quality Grammatical Error Correction?]](https://aclanthology.org/P15-1068)||
 |Human annotation focused on fluency |2016| [[Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality]](https://aclanthology.org/Q16-1013)|[[code]](https://github.com/keisks/reassess-gec)|
@@ -343,7 +354,13 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2003|[Automatic Error Detection in the Japanese Learners’ English Spoken Data](https://aclanthology.org/P03-2026/)||
+||2006|[Detecting errors in English article usage by non-native speakers](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/detecting-errors-in-english-article-usage-by-nonnative-speakers/76D03BB128C2CE603325A086FFCB5B41)||
+||2008|[The Ups and Downs of Preposition Error Detection in ESL Writing](https://aclanthology.org/C08-1109/)||
+||2010|[Evaluating performance of grammatical error detection to maximize learning effect](https://aclanthology.org/C10-2103/)||
 |A weighted measure according to crowdsourcing results (for GED)|2011|[[They Can Help: Using Crowdsourcing to Improve the Evaluation of Grammatical Error Detection Systems]](https://aclanthology.org/P11-2089/)||
+||2014|[Detecting Learner Errors in the Choice of Content Words Using Compositional Distributional Semantics](https://aclanthology.org/C14-1164/)||
+||2016|[Compositional Sequence Labeling Models for Error Detection in Learner Writing](https://aclanthology.org/P16-1112/)||
 ||2017|[Grammatical Error Detection Using Error- and Grammaticality-Specific Word Embeddings](https://aclanthology.org/I17-1005/)|[[code]](https://github.com/kanekomasahiro/grammatical-error-detection)|
 || 2018| [[Wronging a Right: Generating Better Errors to Improve Grammatical Error Detection]](https://aclanthology.org/D18-1541/)| [[code]](https://github.com/skasewa/wronging)|
 |Bi-LSTM with contextual word embeddings|2019|[[Context is Key: Grammatical Error Detection with Contextual Word Representations]](https://aclanthology.org/W19-4410/)||
@@ -383,6 +400,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+||2013|[Chinese Spelling Checker Based on Statistical Machine Translation](https://aclanthology.org/W13-4408/)||
+||2014|[Chinese Word Ordering Errors Detection and Correction for Non-Native Chinese Language Learners](https://aclanthology.org/C14-1028/)||
+||2015|[Improving Chinese Grammatical Error Correction with Corpus Augmentation and Hierarchical Phrase-based Statistical Machine Translation](https://aclanthology.org/W15-4417/)||
 |NLPCC-2018 Shared Task| 2018| [[Overview of the NLPCC 2018 Shared Task: Grammatical Error Correction]](http://tcci.ccf.org.cn/conference/2018/papers/EV11.pdf)| [[data]](https://github.com/zhaoyyoo/NLPCC2018_GEC)
 |Two-stage: Spell checker → seq2seq|2019|[[A Two-Stage Model for Chinese Grammatical Error Correction]](https://ieeexplore.ieee.org/document/8830400)||
 |CNN-based seq2seq|2019|[[Chinese Grammatical Error Correction Based on Convolutional Sequence to Sequence Model]](https://ieeexplore.ieee.org/document/8717692)||
