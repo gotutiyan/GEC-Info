@@ -129,6 +129,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |USim| 2018| [[Reference-less Measure of Faithfulness for Grammatical Error Correction]](https://aclanthology.org/N18-2020/)| [[code]](https://github.com/borgr/USim)|
 |SOME|2020| [[SOME: Reference-less Sub-Metrics Optimized for Manual Evaluations of Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.573)| [[code]](https://github.com/kokeman/SOME)|
 |Scribendi Score|2021|[[Is this the end of the gold standard? A straightforward reference-less grammatical error correction metric]](https://aclanthology.org/2021.emnlp-main.239/)|[[Unofficial code]](https://github.com/gotutiyan/scribendi_score)|
+|IMPARA|2022|[IMPARA: Impact-Based Metric for GEC Using Parallel Data](https://aclanthology.org/2022.coling-1.316/)|[[code]](https://github.com/Silviase/IMPARA)|
 
 # Quality Estimation
 
@@ -208,6 +209,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Interpretability for Language Learners Using Example-Based Grammatical Error Correction](https://aclanthology.org/2022.acl-long.496/)|[[code]](https://github.com/kanekomasahiro/eb-gec)|
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
+||2022|[Position Offset Label Prediction for Grammatical Error Correction](https://aclanthology.org/2022.coling-1.480/)||
 
 ### Unsupervised
 
@@ -306,6 +308,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Explore whether models have grammatical knowledge with Known-setting and Unknown-setting|2021| [[Do Grammatical Error Correction Models Realize Grammatical Generalization?]](https://aclanthology.org/2021.findings-acl.399/)||
 |Compare CNN, LSTM, transformer or combinations of them as BT models|2021| [[Comparison of Grammatical Error Correction Using Back-Translation Models]](https://aclanthology.org/2021.naacl-srw.16/)||
 ||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://aclanthology.org/2022.acl-long.591/)||
+||2022|[Grammatical Error Correction: Are We There Yet?](https://aclanthology.org/2022.coling-1.246/)||
 
 # Spoken Domain
 
@@ -416,6 +419,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Pre-Training-Based Grammatical Error Correction Model for the Written Language of Chinese Hearing Impaired Students](https://ieeexplore.ieee.org/document/9734023)||
 ||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.227/)|[[code]](https://github.com/hillzhang1999/mucgec)|
 ||2022|[Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation](https://aclanthology.org/2022.findings-acl.233/)|[[code]](https://github.com/tc-yue/DA_CGED)|
+||2022|[String Editing Based Chinese Grammatical Error Diagnosis](https://aclanthology.org/2022.coling-1.474/)||
 
 ### Czech
 
