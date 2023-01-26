@@ -296,7 +296,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2015| [[How Far are We from Fully Automatic High Quality Grammatical Error Correction?]](https://aclanthology.org/P15-1068)||
 |Human annotation focused on fluency |2016| [[Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality]](https://aclanthology.org/Q16-1013)|[[code]](https://github.com/keisks/reassess-gec)|
 ||2017| [[GEC into the future: Where are we going and how do we get there?]](https://aclanthology.org/W17-5019/)||
-|MEAGE| 2018| [[Automatic Metric Validation for Grammatical Error Correction]](https://aclanthology.org/P18-1127)| [[code]](https://github.com/borgr/EoE)|
+|MAEGE| 2018| [[Automatic Metric Validation for Grammatical Error Correction]](https://aclanthology.org/P18-1127)| [[code]](https://github.com/borgr/EoE)|
 ||2018| [[Inherent Biases in Reference-based Evaluation for Grammatical Error Correction]](https://aclanthology.org/P18-1059/)| [[code]](https://github.com/borgr/IBGEC)|
 ||2018|[[Assessing Grammatical Correctness in Language Learning]](https://aclanthology.org/2021.bea-1.15/)||
 |Reassess M^2, I-measure, GLEU by comparing human evaluation|2018| [[A Reassessment of Reference-Based Grammatical Error Correction Metrics]](https://aclanthology.org/C18-1231) |[[code]](https://github.com/nusnlp/gecmetrics)|
@@ -311,6 +311,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://aclanthology.org/2022.acl-long.591/)||
 ||2022|[Grammatical Error Correction: Are We There Yet?](https://aclanthology.org/2022.coling-1.246/)||
 ||2022|[Grammatical Error Correction Systems for Automated Assessment: Are They Susceptible to Universal Adversarial Attacks?](https://aclanthology.org/2022.aacl-main.13/)|[[code]](https://github.com/rainavyas/gec-universal-attack)|
+|TETRA|2022|[Towards Automated Document Revision: Grammatical Error Correction, Fluency Edits, and Beyond](https://arxiv.org/pdf/2205.11484.pdf)||
 
 # Spoken Domain
 
