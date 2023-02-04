@@ -120,6 +120,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |ERRANT|2016| [[Automatic Extraction of Learner Errors in ESL Sentences Using Linguistically Enhanced Alignments]](https://www.aclweb.org/anthology/C16-1079)<br>[[Automatic Annotation and Evaluation of Error Types for Grammatical Error Correction]](https://www.aclweb.org/anthology/P17-1074)| [[code]](https://github.com/chrisjbryant/errant)<br>It is often used to evaluate BEA-2019.|
 |GMEG-Metric|2019| [[Enabling Robust Grammatical Error Correction in New Domains: Data Sets, Metrics, and Analyses]](https://aclanthology.org/Q19-1032)| [[code]](https://github.com/grammarly/GMEG)<br>Ridge regression using existing metrics (e.g. ERRANT, GLEU) as features.|
 |GoToScorer|2019| [[Taking the Correction Difficulty into Account in Grammatical Error Correction Evaluation]](https://www.aclweb.org/anthology/2020.coling-main.188)| [[code]](https://github.com/gotutiyan/GTS)<br>It can be evaluated systems considering error correction difficulty.|
+|PT-M2|2022|[Revisiting Grammatical Error Correction Evaluation and Beyond](https://aclanthology.org/2022.emnlp-main.463/)|[[code]](https://github.com/pygongnlp/PT-M2)|
 
 ### Reference-less
 
@@ -211,6 +212,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Type-Driven Multi-Turn Corrections for Grammatical Error Correction](https://aclanthology.org/2022.findings-acl.254/)|[[code]](https://github.com/deeplearnxmu/tmtc)|
 |GECToR Large|2022|[Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction](https://aclanthology.org/2022.acl-long.266/)|[[code]](https://github.com/makstarnavskyi/gector-large) [[Author's Master Thesis]](https://drive.google.com/file/d/17-qXILfafHR8Uv2Y9plcB9WVRdZLazzp/view)|
 ||2022|[Position Offset Label Prediction for Grammatical Error Correction](https://aclanthology.org/2022.coling-1.480/)||
+|SynGEC|2022|[SynGEC: Syntax-Enhanced Grammatical Error Correction with a Tailored GEC-Oriented Parser](https://aclanthology.org/2022.emnlp-main.162/)|[[code]](https://github.com/HillZhang1999/SynGEC)|
+||2022|[Improved grammatical error correction by ranking elementary edits](https://aclanthology.org/2022.emnlp-main.785/)|[[code]](https://github.com/AlexeySorokin/EditScorer)|
+|EdiT5|2022|[EdiT5: Semi-Autoregressive Text Editing with T5 Warm-Start](https://aclanthology.org/2022.findings-emnlp.156/)|[[code]](https://emalmi.kapsi.fi/edit5_code.html)|
 
 ### Unsupervised
 
@@ -372,6 +376,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Bi-LSTM with contextual word embeddings|2019|[[Context is Key: Grammatical Error Detection with Contextual Word Representations]](https://aclanthology.org/W19-4410/)||
 |Multi-head and multi-layer attention| 2019| [[Multi-Head Multi-Layer Attention to Deep Language Representations for Grammatical Error Detection]](https://arxiv.org/abs/1904.07334)||
 ||2021| [[Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors]](https://aclanthology.org/2022.findings-acl.324/)||
+||2022|[Probing for targeted syntactic knowledge through grammatical error detection](https://aclanthology.org/2022.conll-1.25/)|[[code]](https://github.com/chrisdavis90/ged-syntax-probing)|
 
 ### Feedback Comment Generation
 
@@ -423,6 +428,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.227/)|[[code]](https://github.com/hillzhang1999/mucgec)|
 ||2022|[Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation](https://aclanthology.org/2022.findings-acl.233/)|[[code]](https://github.com/tc-yue/DA_CGED)|
 ||2022|[String Editing Based Chinese Grammatical Error Diagnosis](https://aclanthology.org/2022.coling-1.474/)||
+|CLG|2022|[Linguistic Rules-Based Corpus Generation for Native Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.40/)|[[code]](https://github.com/masr2000/CLG-CGEC)|
+||2022|[From Spelling to Grammar: A New Framework for Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.63/)||
+|FCGEC|2022|[FCGEC: Fine-Grained Corpus for Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.137/)|[[code]](https://github.com/xlxwalex/FCGEC)|
 
 ### Czech
 
