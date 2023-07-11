@@ -47,7 +47,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Geek](https://github.com/gotutiyan/GEC-Info#geek)
   * [German](https://github.com/gotutiyan/GEC-Info#german)
   * [Hindi](https://github.com/gotutiyan/GEC-Info#hindi)
+  * [Icelandic](https://github.com/gotutiyan/GEC-Info#icelandic)
   * [Japanese](https://github.com/gotutiyan/GEC-Info#japanese)
+  * [Korean](https://github.com/gotutiyan/GEC-Info#korean)
   * [Lithuanian](https://github.com/gotutiyan/GEC-Info#lithuanian)
   * [Romain](https://github.com/gotutiyan/GEC-Info#romain)
   * [Russian](https://github.com/gotutiyan/GEC-Info#russian)
@@ -218,6 +220,13 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |SynGEC|2022|[SynGEC: Syntax-Enhanced Grammatical Error Correction with a Tailored GEC-Oriented Parser](https://aclanthology.org/2022.emnlp-main.162/)|[[code]](https://github.com/HillZhang1999/SynGEC)|
 ||2022|[Improved grammatical error correction by ranking elementary edits](https://aclanthology.org/2022.emnlp-main.785/)|[[code]](https://github.com/AlexeySorokin/EditScorer)|
 |EdiT5|2022|[EdiT5: Semi-Autoregressive Text Editing with T5 Warm-Start](https://aclanthology.org/2022.findings-emnlp.156/)|[[code]](https://emalmi.kapsi.fi/edit5_code.html)|
+|GEC-DePenD|2023|[GEC-DePenD: Non-Autoregressive Grammatical Error Correction with Decoupled Permutation and Decoding](https://aclanthology.org/2023.acl-long.86)|[[code]](https://github.com/Gibson210/GEC-DePenD)|
+|TemplateGEC|2023|[TemplateGEC: Improving Grammatical Error Correction with Detection Template](https://aclanthology.org/2023.acl-long.380)|[[code]](https://github.com/li-aolong/TemplateGEC)|
+|LET|2023|[LET: Leveraging Error Type Information for Grammatical Error Correction](https://aclanthology.org/2023.findings-acl.371)||
+||2023|[Leveraging Denoised Abstract Meaning Representation for Grammatical Error Correction](https://aclanthology.org/2023.findings-acl.449)||
+|Use speech information|2023|[Improving Grammatical Error Correction with Multimodal Feature Integration](https://aclanthology.org/2023.findings-acl.594)|[[code]](https://github.com/NLP2CT/MultimodalGEC)|
+||2023|[Improving Autoregressive Grammatical Error Correction with Non-autoregressive Models](https://aclanthology.org/2023.findings-acl.760)||
+
 
 ### Unsupervised
 
@@ -259,6 +268,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
 ||2023|[Mitigating Exposure Bias in Grammatical Error Correction with Data Augmentation and Reweighting](https://aclanthology.org/2023.eacl-main.155)|[[code]](https://github.com/nusnlp/gec_eb)|
 ||2023|[An Extended Sequence Tagging Vocabulary for Grammatical Error Correction](https://aclanthology.org/2023.findings-eacl.119)|[[code]](https://github.com/StuartMesham/gector_experiment_public/tree/master)|
+|BTR|2023|[Bidirectional Transformer Reranker for Grammatical Error Correction](https://aclanthology.org/2023.findings-acl.234)|[[code]](https://github.com/zhangying9128/BTR)|
 
 # Data Augmentation
 
@@ -287,6 +297,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Use real error petterns and linguistic knowledge|2021|[[Data Augmentation of Incorporating Real Error Patterns and Linguistic Knowledge for Grammatical Error Correction]](https://aclanthology.org/2021.conll-1.17/)||
 |Divide non-English sentence into chunks → translate to English for each of them → concatenate|2021|[[Grammatical Error Generation Based on Translated Fragments]](https://aclanthology.org/2021.nodalida-main.44/)||
 ||2023|[Grammatical Error Correction through Round-Trip Machine Translation](https://aclanthology.org/2023.findings-eacl.165)||
+|TransGEC|2023|[TransGEC: Improving Grammatical Error Correction with Translationese](https://aclanthology.org/2023.findings-acl.223)|[[code]](https://github.com/NLP2CT/TransGEC)|
 
 ### Data Cleaning
 
@@ -294,7 +305,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |A Self-Refinement Strategy for Noise Reduction|2020|[[A Self-Refinement Strategy for Noise Reduction in Grammatical Error Correction]](https://aclanthology.org/2020.findings-emnlp.26/)||
 |cLang8 (Cleaned Lang-8)|2021| [[A Simple Recipe for Multilingual Grammatical Error Correction]](https://aclanthology.org/2021.acl-short.89/)| [[code]](https://github.com/google-research-datasets/clang8)|
-
 
 # Analyses
 
@@ -396,6 +406,14 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2021|[[Shared Task on Feedback Comment Generation for Language Learners]](https://aclanthology.org/2021.inlg-1.35/)||
 ||2023|[Template-guided Grammatical Error Feedback Comment Generation](https://aclanthology.org/2023.eacl-srw.10)||
 
+### Explainable Grammatical Error Correction
+
+- Input an erroneous sentence and corresponding corrected sentence, output grammar evidence span and predict corresponding error type classes.
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|EXPECT|2023|[Enhancing Grammatical Error Correction Systems with Explanations](https://aclanthology.org/2023.acl-long.413)|[[code]](https://github.com/lorafei/Explainable_GEC)|
+
 
 # Other Languages
 
@@ -439,6 +457,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |CLG|2022|[Linguistic Rules-Based Corpus Generation for Native Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.40/)|[[code]](https://github.com/masr2000/CLG-CGEC)|
 ||2022|[From Spelling to Grammar: A New Framework for Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.63/)||
 |FCGEC|2022|[FCGEC: Fine-Grained Corpus for Chinese Grammatical Error Correction](https://aclanthology.org/2022.findings-emnlp.137/)|[[code]](https://github.com/xlxwalex/FCGEC)|
+||2023|[Are Pre-trained Language Models Useful for Model Ensemble in Chinese Grammatical Error Correction?](https://aclanthology.org/2023.acl-short.77)|[[code]](https://github.com/JamyDon/PLM-based-CGEC-Model-Ensemble)|
+||2023|[Focal Training and Tagger Decouple for Grammatical Error Correction](https://aclanthology.org/2023.findings-acl.370)||
+|NaSGEC|2023|[NaSGEC: a Multi-Domain Chinese Grammatical Error Correction Dataset from Native Speaker Texts](https://aclanthology.org/2023.findings-acl.630)|[[code]](https://github.com/HillZhang1999/NaSGEC)|
 
 ### Czech
 
@@ -467,6 +488,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2014|[[Detection and correction of non word spelling errors in Hindi language]](https://ieeexplore.ieee.org/abstract/document/6954235)||
 |HiWikiEd dataset|2020|[[Generating Inflectional Errors for Grammatical Error Correction in Hindi]](https://aclanthology.org/2020.aacl-srw.24/)|[[data]](https://github.com/s-ankur/hindi_grammar_correction)|
 
+### Icelandic
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|Byte-level approach|2023|[Byte-Level Grammatical Error Correction Using Synthetic and Curated Corpora](https://aclanthology.org/2023.acl-long.402)|[[code]](https://github.com/mideind/byte-gec)|
+
+
 ### Japanese
 
 |Keywords / Overview|Year|Paper|Note|
@@ -476,6 +503,11 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |TMU Evaluation Corpus for Japanese Learners|2020| [[Construction of an Evaluation Corpus for Grammatical Error Correction for Learners of Japanese as a Second Language]](https://aclanthology.org/2020.lrec-1.26/)| [[data: Fill this form]](https://docs.google.com/forms/d/e/1FAIpQLSdBOoRuHaDuBuwuuYHrz6ILR6LQqIPw3AUL6XVEmvDFg8z_wQ/viewform)|
 |Non-Autoregressive approach|2020|[[Non-Autoregressive Grammatical Error Correction Toward a Writing Support System]](https://aclanthology.org/2020.nlptea-1.1/)||
 ||2022|[Construction of a Quality Estimation Dataset for Automatic Evaluation of Japanese Grammatical Error Correction](https://arxiv.org/abs/2201.08038)||
+
+### Korean
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|KAGAS|2023|[Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation](https://aclanthology.org/2023.acl-long.371)|[[code]](https://github.com/soyoung97/Standard_Korean_GEC) [[data request form]](https://docs.google.com/forms/d/e/1FAIpQLSfewjAmqcrKF5GDYuIWOfyMVBI3FN6tCwI8jalzQNhGoVAlRg/viewform)|
 
 ### Lithuanian
 |Keywords / Overview|Year|Paper|Note|
