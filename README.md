@@ -52,6 +52,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Romain](https://github.com/gotutiyan/GEC-Info#romain)
   * [Russian](https://github.com/gotutiyan/GEC-Info#russian)
   * [Spanish](https://github.com/gotutiyan/GEC-Info#spanish)
+  * [Turkish](https://github.com/gotutiyan/GEC-Info#turkish)
   * [Ukrainian](https://github.com/gotutiyan/GEC-Info#ukrainian)
 
 
