@@ -2,8 +2,10 @@
 
 ### Policy
 - This repository aims to collect and categorize GEC (Grammatical Error Correction) papers.
-- Unlike NLP-progress, we do not consider performances on benchmarks.
-- The papers are limited to refereed-papers for now (This is not the case with survey papers).
+- Unlike [NLP-progress](http://nlpprogress.com/), GEC-Info does not consider performance on benchmarks.
+  - Authors and conferences are also not be considered.
+- The papers are limited to refereed papers in international conferences for now.
+  - This is not the case for survey papers.
 
 ### Contributing
 - Pull Requests for adding papers are accepted. Please make a commit changing only lines regarding the addition of papers (and take care of changing by auto-formatting).
