@@ -256,6 +256,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Cross-lingual Transfer Learning|2020|[[Cross-lingual Transfer Learning for Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.415)||
 |Data Weighted Training Strategies|2020|[[Data Weighted Training Strategies for Grammatical Error Correction]](https://aclanthology.org/2020.tacl-1.41/)||
 |Align-and-Predict Decoding|2022|[Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction](https://aclanthology.org/2022.acl-short.77/)|[[code]](https://github.com/AutoTemp/Align-and-Predict.git)|
+||2023|[Mitigating Exposure Bias in Grammatical Error Correction with Data Augmentation and Reweighting](https://aclanthology.org/2023.eacl-main.155)|[[code]](https://github.com/nusnlp/gec_eb)|
+||2023|[An Extended Sequence Tagging Vocabulary for Grammatical Error Correction](https://aclanthology.org/2023.findings-eacl.119)|[[code]](https://github.com/StuartMesham/gector_experiment_public/tree/master)|
 
 # Data Augmentation
 
@@ -283,6 +285,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Use 188 modules|2021|[[Various Errors Improve Neural Grammatical Error Correction]](https://aclanthology.org/2021.paclic-1.27/)|[[code]](https://github.com/shotakoyama/arteraro)|
 |Use real error petterns and linguistic knowledge|2021|[[Data Augmentation of Incorporating Real Error Patterns and Linguistic Knowledge for Grammatical Error Correction]](https://aclanthology.org/2021.conll-1.17/)||
 |Divide non-English sentence into chunks → translate to English for each of them → concatenate|2021|[[Grammatical Error Generation Based on Translated Fragments]](https://aclanthology.org/2021.nodalida-main.44/)||
+||2023|[Grammatical Error Correction through Round-Trip Machine Translation](https://aclanthology.org/2023.findings-eacl.165)||
 
 ### Data Cleaning
 
@@ -335,6 +338,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |GECko++|| [[GECko+: a Grammatical and Discourse Error Correction Tool]](https://aclanthology.org/2021.jeptalnrecital-demo.3)|[[website]](https://gecko-app.azurewebsites.net) [[code]](https://github.com/psawa/gecko-app)<br>An English assiting tool. Correction grammatical error and re-ordering sentences automatically.|
 |MiSS|2021|[[MiSS: An Assistant for Multi-Style Simultaneous Translation]](https://aclanthology.org/2021.emnlp-demo.1/)|[[website]](http://miss.x2brain.com/) [[demo video]](https://www.youtube.com/watch?v=ZGCo7KtRKd8&ab_channel=AnonymousAnonymous)|
+|ALLECS|2023|[ALLECS: A Lightweight Language Error Correction System](https://aclanthology.org/2023.eacl-demo.32)|[[website]](https://sterling8.d2.comp.nus.edu.sg/allecs/) [[code]](https://github.com/nusnlp/ALLECS)|
 
 # Projects
 
@@ -389,6 +393,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2019|[[Toward a Task of Feedback Comment Generation for Writing Learning]](https://aclanthology.org/D19-1316)||
 ||2020|[[Creating Corpora for Research in Feedback Comment Generation]](https://aclanthology.org/2020.lrec-1.42/)||
 ||2021|[[Shared Task on Feedback Comment Generation for Language Learners]](https://aclanthology.org/2021.inlg-1.35/)||
+||2023|[Template-guided Grammatical Error Feedback Comment Generation](https://aclanthology.org/2023.eacl-srw.10)||
 
 
 # Other Languages
@@ -495,8 +500,17 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |COWS-L2H|2020|[[Developing NLP Tools with a New Corpus of Learner Spanish]](https://aclanthology.org/2020.lrec-1.894/)|[[data]](https://github.com/ucdaviscl/cowsl2h)|
 
+### Turkish
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|ERRANT-TR|2023|[Towards Automatic Grammatical Error Type Classification for Turkish](https://aclanthology.org/2023.eacl-srw.14)|[[code]](https://github.com/harunuz/erranttr)|
+
 ### Ukrainian
 
 Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
-|UA-GEC|2021|[[UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language]](https://arxiv.org/abs/2103.16997)|[[data]](https://github.com/grammarly/ua-gec)|
+|UA-GEC|2023|[[UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language]](https://aclanthology.org/2023.unlp-1.12/)|[[data]](https://github.com/grammarly/ua-gec)|
+|UNLP 2023 Shared Task|2023|[The UNLP 2023 Shared Task on Grammatical Error Correction for Ukrainian](https://aclanthology.org/2023.unlp-1.16)||
+||2023|[Comparative Study of Models Trained on Synthetic Data for Ukrainian Grammatical Error Correction](https://aclanthology.org/2023.unlp-1.13)|UNLP-2023: Pravopysnyk|
+||2023|[A Low-Resource Approach to the Grammatical Error Correction of Ukrainian](https://aclanthology.org/2023.unlp-1.14)|UNLP-2023: QC-NLP|
+||2023|[RedPenNet for Grammatical Error Correction: Outputs to Tokens, Attentions to Spans](https://aclanthology.org/2023.unlp-1.15)|UNLP-2023: WebSpellChecker|
