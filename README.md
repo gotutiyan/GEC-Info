@@ -298,6 +298,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Divide non-English sentence into chunks → translate to English for each of them → concatenate|2021|[[Grammatical Error Generation Based on Translated Fragments]](https://aclanthology.org/2021.nodalida-main.44/)||
 ||2023|[Grammatical Error Correction through Round-Trip Machine Translation](https://aclanthology.org/2023.findings-eacl.165)||
 |TransGEC|2023|[TransGEC: Improving Grammatical Error Correction with Translationese](https://aclanthology.org/2023.findings-acl.223)|[[code]](https://github.com/NLP2CT/TransGEC)|
+|Focus on gender bias|2023|[Gender-Inclusive Grammatical Error Correction through Augmentation](https://aclanthology.org/2023.bea-1.13)|[[code]](https://github.com/grammarly/gender-inclusive-gec)|
+||2023|[Training for Grammatical Error Correction Without Human-Annotated L2 Learners’ Corpora](https://aclanthology.org/2023.bea-1.38)||
 
 ### Data Cleaning
 
@@ -332,6 +334,10 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Grammatical Error Correction: Are We There Yet?](https://aclanthology.org/2022.coling-1.246/)||
 ||2022|[Grammatical Error Correction Systems for Automated Assessment: Are They Susceptible to Universal Adversarial Attacks?](https://aclanthology.org/2022.aacl-main.13/)|[[code]](https://github.com/rainavyas/gec-universal-attack)|
 |TETRA|2022|[Towards Automated Document Revision: Grammatical Error Correction, Fluency Edits, and Beyond](https://arxiv.org/pdf/2205.11484.pdf)||
+||2023|[ChatBack: Investigating Methods of Providing Grammatical Error Feedback in a GUI-based Language Learning Chatbot](https://aclanthology.org/2023.bea-1.7)||
+||2023|[Exploring Effectiveness of GPT-3 in Grammatical Error Correction: A Study on Performance and Controllability in Prompt-Based Methods](https://aclanthology.org/2023.bea-1.18)||
+||2023|[A Closer Look at k-Nearest Neighbors Grammatical Error Correction](https://aclanthology.org/2023.bea-1.19)||
+||2023|[Grammatical Error Correction for Sentence-level Assessment in Language Learning](https://aclanthology.org/2023.bea-1.41)||
 
 # Spoken Domain
 
