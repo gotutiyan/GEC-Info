@@ -229,6 +229,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Use speech information|2023|[Improving Grammatical Error Correction with Multimodal Feature Integration](https://aclanthology.org/2023.findings-acl.594)|[[code]](https://github.com/NLP2CT/MultimodalGEC)|
 ||2023|[Improving Autoregressive Grammatical Error Correction with Non-autoregressive Models](https://aclanthology.org/2023.findings-acl.760)||
 ||2023|[Reducing Sequence Length by Predicting Edit Spans with Large Language Models](https://aclanthology.org/2023.emnlp-main.619/)||
+||2024|[No Error Left Behind: Multilingual Grammatical Error Correction with Pre-trained Translation Models](https://aclanthology.org/2024.eacl-long.73/)||
 
 
 ### Unsupervised
@@ -489,6 +490,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |AKCES-GEC dataset| 2019| [[Grammatical Error Correction in Low-Resource Scenarios]](https://aclanthology.org/D19-5545)| [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)|
 |Grammar Error Correction Corpus for Czech (GECCC)|2022|[Czech Grammar Error Correction with a Large and Diverse Corpus](https://arxiv.org/abs/2201.05590)|[[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4639)|
 
+### Finnish
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2024|[Correcting Challenging Finnish Learner Texts With Claude, GPT-3.5 and GPT-4 Large Language Models](https://aclanthology.org/2024.wnut-1.1/)
+||
+
 ### Geek
 
 |Keywords / Overview|Year|Paper|Note|
@@ -547,6 +554,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |RULEC-GEC dataset|2019| [[Grammar Error Correction in Morphologically Rich Languages: The Case of Russian]](https://aclanthology.org/Q19-1001/)| [[data]](https://github.com/arozovskaya/RULEC-GEC)|
 |RU-Lang8 dataset|2021| [[New Dataset and Strong Baselines for the Grammatical Error Correction of Russian]](https://aclanthology.org/2021.findings-acl.359/)| [[data]](https://github.com/arozovskaya/RU-Lang8)|
+|Additional annotations for RULEC and RU-Lang8|2024|[Multi-Reference Benchmarks for Russian Grammatical Error Correction](https://aclanthology.org/2024.eacl-long.76/)|[[RULEC]](https://github.com/arozovskaya/RULEC-GEC) [[RU-Lang8]](https://github.com/arozovskaya/RU-Lang8)|
 
 ### Spanish
 
