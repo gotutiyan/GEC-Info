@@ -246,6 +246,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2024|[Improving Grammatical Error Correction by Correction Acceptability Discrimination](https://aclanthology.org/2024.lrec-main.772/)||
 |mEdIT|2024|[mEdIT: Multilingual Text Editing via Instruction Tuning](https://aclanthology.org/2024.naacl-long.56)|[[code]](https://github.com/vipulraheja/medit)|
 ||2024|[Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction](https://aclanthology.org/2024.naacl-long.99)|[[code]](https://github.com/JamyDon/SynICL4GEC)|
+||2024|[Detection-Correction Structure via General Language Model for Grammatical Error Correction](https://aclanthology.org/2024.acl-long.96)|[[code]](https://github.com/GMago-LeWay/GECFramework)|
 
 
 ### Unsupervised
@@ -328,6 +329,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2023|[Training for Grammatical Error Correction Without Human-Annotated L2 Learners’ Corpora](https://aclanthology.org/2023.bea-1.38)||
 |MixEdit|2023|[MixEdit: Revisiting Data Augmentation and Beyond for Grammatical Error Correction](https://aclanthology.org/2023.findings-emnlp.681/)|[[code]](https://github.com/THUKElab/MixEdit)|
 ||2024|[Synthetic Data Generation for Low-resource Grammatical Error Correction with Tagged Corruption Models](https://aclanthology.org/2024.bea-1.2)||
+||2024|[Improving Grammatical Error Correction via Contextual Data Augmentation](https://aclanthology.org/2024.findings-acl.647)|[[code]](https://github.com/wyxstriker/CDA4GEC)|
 
 ### Data Cleaning
 
@@ -366,6 +368,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2024|[Evaluating Prompting Strategies for Grammatical Error Correction Based on Language Proficiency](https://aclanthology.org/2024.lrec-main.569/)||
 ||2024|[GPT-3.5 for Grammatical Error Correction](https://aclanthology.org/2024.lrec-main.692/)|Target languages: CZ, DE, EN, RU, SV, UA|
 ||2024|[[Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models](https://aclanthology.org/2024.bea-1.3)]|[[code]](https://github.com/grammarly/pillars-of-gec)|
+||2024|[Likelihood-based Mitigation of Evaluation Bias in Large Language Models](https://aclanthology.org/2024.findings-acl.193)||
+||2024|[Prompting open-source and commercial language models for grammatical error correction of English learner text](https://aclanthology.org/2024.findings-acl.711)|[[code]](https://github.com/chrisdavis90/gec-prompting-public)|
 
 
 # Spoken Domain
@@ -507,6 +511,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |NaSGEC|2023|[NaSGEC: a Multi-Domain Chinese Grammatical Error Correction Dataset from Native Speaker Texts](https://aclanthology.org/2023.findings-acl.630)|[[code]](https://github.com/HillZhang1999/NaSGEC)|
 |TLM|2023|[TLM: Token-Level Masking for Transformers](https://aclanthology.org/2023.emnlp-main.871/)|[[code]](https://github.com/Young1993/tlm)|
 ||2024|[LM-Combiner: A Contextual Rewriting Model for Chinese Grammatical Error Correction](https://aclanthology.org/2024.lrec-main.934/)|[[code]](https://github.com/wyxstriker/LM-Combiner)|
+|Alirector|2024|[Alirector: Alignment-Enhanced Chinese Grammatical Error Corrector](https://aclanthology.org/2024.findings-acl.148)|[[code]](https://github.com/yanghh2000/Alirector)|
+||2024|[Towards Better Utilization of Multi-Reference Training Data for Chinese Grammatical Error Correction](https://aclanthology.org/2024.findings-acl.180)|[[code]](https://github.com/ymliucs/MrGEC)|
 
 ### Czech
 
