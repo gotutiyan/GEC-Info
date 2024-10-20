@@ -23,6 +23,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 * [Performance Measures](https://github.com/gotutiyan/GEC-Info#performance-measures)
   * [Reference-based](https://github.com/gotutiyan/GEC-Info#reference-based)
   * [Reference-less](https://github.com/gotutiyan/GEC-Info#reference-less)
+  * [Meta-evaluation](https://github.com/gotutiyan/GEC-Info#meta-evaluatoin)
 * [Quality Estimation](https://github.com/gotutiyan/GEC-Info#quality-estimation)
 * [Models / Methods](https://github.com/gotutiyan/GEC-Info#models--methods)
   * [Supervised](https://github.com/gotutiyan/GEC-Info#supervised)
@@ -142,6 +143,11 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |IMPARA|2022|[IMPARA: Impact-Based Metric for GEC Using Parallel Data](https://aclanthology.org/2022.coling-1.316/)|[[code]](https://github.com/Silviase/IMPARA)|
 ||2024|[Large Language Models Are State-of-the-Art Evaluator for Grammatical Error Correction](https://aclanthology.org/2024.bea-1.6)||
 
+### Meta-evaluation
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|SEEDA|2024|[Revisiting Meta-evaluation for Grammatical Error Correction](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00676/123651/Revisiting-Meta-evaluation-for-Grammatical-Error)|[[code]](https://github.com/tmu-nlp/SEEDA)|
 
 # Quality Estimation
 
