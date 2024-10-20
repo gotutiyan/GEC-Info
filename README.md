@@ -147,6 +147,9 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
+|Re-rank the CoNLL14 systems by human evaluation|2015|[Human Evaluation of Grammatical Error Correction Systems](https://aclanthology.org/D15-1052/)|[[code]](https://github.com/grammatical/evaluation/)|
+|Reassess M^2, I-measure, GLEU by comparing human evaluation|2018|[[A Reassessment of Reference-Based Grammatical Error Correction Metrics]](https://aclanthology.org/C18-1231) |[[code]](https://github.com/nusnlp/gecmetrics)|
+|MAEGE|2018|[Automatic Metric Validation for Grammatical Error Correction](https://aclanthology.org/P18-1127)|[[code]](https://github.com/borgr/EoE)|
 |SEEDA|2024|[Revisiting Meta-evaluation for Grammatical Error Correction](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00676/123651/Revisiting-Meta-evaluation-for-Grammatical-Error)|[[code]](https://github.com/tmu-nlp/SEEDA)|
 
 # Quality Estimation
@@ -339,14 +342,11 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 ||2011|[Algorithm Selection and Model Adaptation for ESL Correction Tasks](https://aclanthology.org/P11-1093.pdf)||
 ||2012|[The Effect of Learner Corpus Size in Grammatical Error Correction of ESL Writings](https://aclanthology.org/C12-2084/)||
-|Re-rank the CoNLL14 systems by human evaluation|2015| [[Human Evaluation of Grammatical Error Correction Systems]](https://aclanthology.org/D15-1052/)| [[code]](https://github.com/grammatical/evaluation/)|
 ||2015| [[How Far are We from Fully Automatic High Quality Grammatical Error Correction?]](https://aclanthology.org/P15-1068)||
 |Human annotation focused on fluency |2016| [[Reassessing the Goals of Grammatical Error Correction: Fluency Instead of Grammaticality]](https://aclanthology.org/Q16-1013)|[[code]](https://github.com/keisks/reassess-gec)|
 ||2017| [[GEC into the future: Where are we going and how do we get there?]](https://aclanthology.org/W17-5019/)||
-|MAEGE| 2018| [[Automatic Metric Validation for Grammatical Error Correction]](https://aclanthology.org/P18-1127)| [[code]](https://github.com/borgr/EoE)|
 ||2018| [[Inherent Biases in Reference-based Evaluation for Grammatical Error Correction]](https://aclanthology.org/P18-1059/)| [[code]](https://github.com/borgr/IBGEC)|
 ||2018|[[Assessing Grammatical Correctness in Language Learning]](https://aclanthology.org/2021.bea-1.15/)||
-|Reassess M^2, I-measure, GLEU by comparing human evaluation|2018| [[A Reassessment of Reference-Based Grammatical Error Correction Metrics]](https://aclanthology.org/C18-1231) |[[code]](https://github.com/nusnlp/gecmetrics)|
 |Quality estimation (and re-ranking using estimated score)|2018|[[Neural Quality Estimation of Grammatical Error Correction]](https://aclanthology.org/D18-1274/)|[[code]](https://github.com/nusnlp/neuqe)|
 |Evaluate four systems (SMT, CNN, LSTM, Transformer) for six corpora (CoNLL13&14, FCE, JFLEG, KJ, ICNALE)|2019| [[Cross-Corpora Evaluation and Analysis of Grammatical Error Correction Models — Is Single-Corpus Evaluation Enough?]](https://aclanthology.org/N19-1132/) ||
 |Compare CNN, Transformer, PRPN, ON-LSTM as back-translation models|2019|[[The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction]](https://aclanthology.org/W19-4449)||
