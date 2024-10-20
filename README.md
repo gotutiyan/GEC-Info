@@ -233,7 +233,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2024|[No Error Left Behind: Multilingual Grammatical Error Correction with Pre-trained Translation Models](https://aclanthology.org/2024.eacl-long.73/)||
 |EDU Copy Mechanism|2024|[Improving Copy-oriented Text Generation via EDU Copy Mechanism](https://aclanthology.org/2024.lrec-main.768/)||
 ||2024|[Improving Grammatical Error Correction by Correction Acceptability Discrimination](https://aclanthology.org/2024.lrec-main.772/)||
-
+|mEdIT|2024|[mEdIT: Multilingual Text Editing via Instruction Tuning](https://aclanthology.org/2024.naacl-long.56)|[[code]](https://github.com/vipulraheja/medit)|
+||2024|[Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction](https://aclanthology.org/2024.naacl-long.99)|[[code]](https://github.com/JamyDon/SynICL4GEC)|
 
 
 ### Unsupervised
@@ -439,6 +440,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 |EXPECT|2023|[Enhancing Grammatical Error Correction Systems with Explanations](https://aclanthology.org/2023.acl-long.413)|[[code]](https://github.com/lorafei/Explainable_GEC)|
 |XGEC dataset|2024|[Controlled Generation with Prompt Insertion for Natural Language Explanations in Grammatical Error Correction](https://aclanthology.org/2024.lrec-main.350/)|[[data]](https://github.com/kanekomasahiro/gec-explanation)|
+|GEE|2024|[GEE! Grammar Error Explanation with Large Language Models](https://aclanthology.org/2024.findings-naacl.49)|[[code]](https://github.com/Yixiao-Song/GEE-with-LLMs)|
 
 # Other Languages
 
