@@ -140,6 +140,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |SOME|2020| [[SOME: Reference-less Sub-Metrics Optimized for Manual Evaluations of Grammatical Error Correction]](https://aclanthology.org/2020.coling-main.573)| [[code]](https://github.com/kokeman/SOME)|
 |Scribendi Score|2021|[[Is this the end of the gold standard? A straightforward reference-less grammatical error correction metric]](https://aclanthology.org/2021.emnlp-main.239/)|[[Unofficial code]](https://github.com/gotutiyan/scribendi_score)|
 |IMPARA|2022|[IMPARA: Impact-Based Metric for GEC Using Parallel Data](https://aclanthology.org/2022.coling-1.316/)|[[code]](https://github.com/Silviase/IMPARA)|
+||2024|[Large Language Models Are State-of-the-Art Evaluator for Grammatical Error Correction](https://aclanthology.org/2024.bea-1.6)||
+
 
 # Quality Estimation
 
@@ -316,6 +318,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Focus on gender bias|2023|[Gender-Inclusive Grammatical Error Correction through Augmentation](https://aclanthology.org/2023.bea-1.13)|[[code]](https://github.com/grammarly/gender-inclusive-gec)|
 ||2023|[Training for Grammatical Error Correction Without Human-Annotated L2 Learners’ Corpora](https://aclanthology.org/2023.bea-1.38)||
 |MixEdit|2023|[MixEdit: Revisiting Data Augmentation and Beyond for Grammatical Error Correction](https://aclanthology.org/2023.findings-emnlp.681/)|[[code]](https://github.com/THUKElab/MixEdit)|
+||2024|[Synthetic Data Generation for Low-resource Grammatical Error Correction with Tagged Corruption Models](https://aclanthology.org/2024.bea-1.2)||
 
 ### Data Cleaning
 
@@ -349,7 +352,6 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2022|[Uncertainty Determines the Adequacy of the Mode and the Tractability of Decoding in Sequence-to-Sequence Models](https://aclanthology.org/2022.acl-long.591/)||
 ||2022|[Grammatical Error Correction: Are We There Yet?](https://aclanthology.org/2022.coling-1.246/)||
 ||2022|[Grammatical Error Correction Systems for Automated Assessment: Are They Susceptible to Universal Adversarial Attacks?](https://aclanthology.org/2022.aacl-main.13/)|[[code]](https://github.com/rainavyas/gec-universal-attack)|
-|TETRA|2022|[Towards Automated Document Revision: Grammatical Error Correction, Fluency Edits, and Beyond](https://arxiv.org/pdf/2205.11484.pdf)||
 ||2023|[ChatBack: Investigating Methods of Providing Grammatical Error Feedback in a GUI-based Language Learning Chatbot](https://aclanthology.org/2023.bea-1.7)||
 ||2023|[Exploring Effectiveness of GPT-3 in Grammatical Error Correction: A Study on Performance and Controllability in Prompt-Based Methods](https://aclanthology.org/2023.bea-1.18)||
 ||2023|[A Closer Look at k-Nearest Neighbors Grammatical Error Correction](https://aclanthology.org/2023.bea-1.19)||
@@ -357,6 +359,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2023|[Evaluation Metrics in the Era of GPT-4: Reliably Evaluating Large Language Models on Sequence to Sequence Tasks](https://aclanthology.org/2023.emnlp-main.543/)||
 ||2024|[Evaluating Prompting Strategies for Grammatical Error Correction Based on Language Proficiency](https://aclanthology.org/2024.lrec-main.569/)||
 ||2024|[GPT-3.5 for Grammatical Error Correction](https://aclanthology.org/2024.lrec-main.692/)|Target languages: CZ, DE, EN, RU, SV, UA|
+||2024|[[Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models](https://aclanthology.org/2024.bea-1.3)]|[[code]](https://github.com/grammarly/pillars-of-gec)|
+
 
 # Spoken Domain
 
@@ -441,6 +445,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |EXPECT|2023|[Enhancing Grammatical Error Correction Systems with Explanations](https://aclanthology.org/2023.acl-long.413)|[[code]](https://github.com/lorafei/Explainable_GEC)|
 |XGEC dataset|2024|[Controlled Generation with Prompt Insertion for Natural Language Explanations in Grammatical Error Correction](https://aclanthology.org/2024.lrec-main.350/)|[[data]](https://github.com/kanekomasahiro/gec-explanation)|
 |GEE|2024|[GEE! Grammar Error Explanation with Large Language Models](https://aclanthology.org/2024.findings-naacl.49)|[[code]](https://github.com/Yixiao-Song/GEE-with-LLMs)|
+
+### Document-level Revision
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+|TETRA|2024|[Towards Automated Document Revision: Grammatical Error Correction, Fluency Edits, and Beyond](https://aclanthology.org/2024.bea-1.21)|[[code]](https://github.com/chemicaltree/tetra)|
 
 # Other Languages
 
