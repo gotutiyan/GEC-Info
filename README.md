@@ -130,6 +130,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |GoToScorer|2019| [[Taking the Correction Difficulty into Account in Grammatical Error Correction Evaluation]](https://www.aclweb.org/anthology/2020.coling-main.188)| [[code]](https://github.com/gotutiyan/GTS)<br>It can be evaluated systems considering error correction difficulty.|
 |PT-M2|2022|[Revisiting Grammatical Error Correction Evaluation and Beyond](https://aclanthology.org/2022.emnlp-main.463/)|[[code]](https://github.com/pygongnlp/PT-M2)|
 |CLEME|2023|[CLEME: Debiasing Multi-reference Evaluation for Grammatical Error Correction](https://aclanthology.org/2023.emnlp-main.378/)|[[code]](https://github.com/THUKElab/CLEME.git)|
+|GREEN|2024|[n-gram F-score for Evaluating Grammatical Error Correction](https://aclanthology.org/2024.inlg-main.25/)|[[code]](https://github.com/shotakoyama/green)|
 
 ### Reference-less
 
