@@ -131,6 +131,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |PT-M2|2022|[Revisiting Grammatical Error Correction Evaluation and Beyond](https://aclanthology.org/2022.emnlp-main.463/)|[[code]](https://github.com/pygongnlp/PT-M2)|
 |CLEME|2023|[CLEME: Debiasing Multi-reference Evaluation for Grammatical Error Correction](https://aclanthology.org/2023.emnlp-main.378/)|[[code]](https://github.com/THUKElab/CLEME.git)|
 |GREEN|2024|[n-gram F-score for Evaluating Grammatical Error Correction](https://aclanthology.org/2024.inlg-main.25/)|[[code]](https://github.com/shotakoyama/green)|
+||2025|[Refined Evaluation for End-to-End Grammatical Error Correction Using an Alignment-Based Approach](https://aclanthology.org/2025.coling-main.52/)|[[website]](https://open-writing-evaluation.github.io/)|
 
 ### Reference-less
 
@@ -250,6 +251,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2024|[Detection-Correction Structure via General Language Model for Grammatical Error Correction](https://aclanthology.org/2024.acl-long.96)|[[code]](https://github.com/GMago-LeWay/GECFramework)|
 ||2024|[Efficient and Interpretable Grammatical Error Correction with Mixture of Experts](https://aclanthology.org/2024.findings-emnlp.997/)|[[code]](https://github.com/nusnlp/moece)|
 
+
 ### Unsupervised
 
 |Keywords / Overview|Year|Paper|Note|
@@ -262,6 +264,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Create erroneous data from monolingual data|2019|[[Minimally-Augmented Grammatical Error Correction]](https://aclanthology.org/D19-5546)|Supervised setting is also performed|
 |LM-Critic| 2021| [[LM-Critic: Language Models for Unsupervised Grammatical Error Correction]](https://aclanthology.org/2021.emnlp-main.611/)| [[code]](https://github.com/michiyasunaga/LM-Critic)<br>Supervised setting is also performed|
 ||2023|[Unsupervised Grammatical Error Correction Rivaling Supervised Methods](https://aclanthology.org/2023.emnlp-main.185/)|[[code]](https://github.com/nusnlp/ugec)|
+||2025|[InstructGEC: Enhancing Unsupervised Grammatical Error Correction with Instruction Tuning](https://aclanthology.org/2025.coling-main.9/)||
 
 # Ensemble Methods
 
@@ -297,6 +300,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |MainGEC|2023|[Grammatical Error Correction via Mixed-Grained Weighted Training](https://aclanthology.org/2023.findings-emnlp.400/)||
 ||2023|[Improving Seq2Seq Grammatical Error Correction via Decoding Interventions](https://aclanthology.org/2023.findings-emnlp.495)|[[code]](https://github.com/Jacob-Zhou/gecdi)|
 ||2024|[Multi-pass Decoding for Grammatical Error Correction](https://aclanthology.org/2024.emnlp-main.553/)||
+|EPO|2025|[Edit-Wise Preference Optimization for Grammatical Error Correction](https://aclanthology.org/2025.coling-main.229/)||
 
 
 # Data Augmentation
@@ -334,6 +338,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2024|[Improving Grammatical Error Correction via Contextual Data Augmentation](https://aclanthology.org/2024.findings-acl.647)|[[code]](https://github.com/wyxstriker/CDA4GEC)|
 |For code-switched text|2024|[LLM-based Code-Switched Text Generation for Grammatical Error Correction](https://aclanthology.org/2024.emnlp-main.942/)|[[code]](https://github.com/tpotterer/Synthetic-CSW-Text-for-GEC)|
 ||2024|[To Err Is Human, but Llamas Can Learn It Too](https://aclanthology.org/2024.findings-emnlp.727/)|[[code]](https://github.com/TartuNLP/gec-llm)|
+||2025|[Large Language Models are Good Annotators for Type-aware Data Augmentation in Grammatical Error Correction](https://aclanthology.org/2025.coling-main.14/)|[[code]](https://github.com/LiXinyuan1015/TypeDA)|
+||2025|[Leveraging Multilingual Models for Robust Grammatical Error Correction Across Low-Resource Languages](https://aclanthology.org/2025.coling-industry.43/)||
 
 ### Data Cleaning
 
@@ -394,6 +400,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |MiSS|2021|[[MiSS: An Assistant for Multi-Style Simultaneous Translation]](https://aclanthology.org/2021.emnlp-demo.1/)|[[website]](http://miss.x2brain.com/) [[demo video]](https://www.youtube.com/watch?v=ZGCo7KtRKd8&ab_channel=AnonymousAnonymous)|
 |ALLECS|2023|[ALLECS: A Lightweight Language Error Correction System](https://aclanthology.org/2023.eacl-demo.32)|[[website]](https://sterling8.d2.comp.nus.edu.sg/allecs/) [[code]](https://github.com/nusnlp/ALLECS)|
 ||2023|[Doolittle: Benchmarks and Corpora for Academic Writing Formalization](https://aclanthology.org/2023.emnlp-main.809/)|[[code]](https://github.com/shizhediao/Doolittle)|
+||2025|[Who Wrote This? The Key to Zero-Shot LLM-Generated Text Detection Is GECScore](https://aclanthology.org/2025.coling-main.684/)|[[code]](https://github.com/NLP2CT/GECScore)|
+||2025|[UnifiedGEC: Integrating Grammatical Error Correction Approaches for Multi-languages with a Unified Framework](https://aclanthology.org/2025.coling-demos.5/)|[[code]](https://github.com/AnKate/UnifiedGEC)|
 
 # Projects
 
@@ -439,6 +447,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2021| [[Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors]](https://aclanthology.org/2022.findings-acl.324/)||
 ||2022|[Probing for targeted syntactic knowledge through grammatical error detection](https://aclanthology.org/2022.conll-1.25/)|[[code]](https://github.com/chrisdavis90/ged-syntax-probing)|
 ||2024|[Zero-shot Cross-Lingual Transfer for Synthetic Data Generation in Grammatical Error Detection](https://aclanthology.org/2024.emnlp-main.176/)|[[data]](https://github.com/Ubisoft-LaForge/ubisoft-laforge-MultiLingualCheck-2M)|
+||2025|[Oddballness: universal anomaly detection with language models](https://aclanthology.org/2025.coling-main.183/)|[[code]](https://github.com/richardxoldman/oddballness)|
 
 ### Feedback Comment Generation
 
@@ -519,6 +528,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Alirector|2024|[Alirector: Alignment-Enhanced Chinese Grammatical Error Corrector](https://aclanthology.org/2024.findings-acl.148)|[[code]](https://github.com/yanghh2000/Alirector)|
 ||2024|[Towards Better Utilization of Multi-Reference Training Data for Chinese Grammatical Error Correction](https://aclanthology.org/2024.findings-acl.180)|[[code]](https://github.com/ymliucs/MrGEC)|
 ||2024|[Towards Explainable Chinese Native Learner Essay Fluency Assessment: Dataset, Tasks, and Method](https://aclanthology.org/2024.findings-emnlp.910/)|[[code]](https://github.com/cubenlp/CEFA)|
+||2025|[Improving Automatic Grammatical Error Annotation for Chinese Through Linguistically-Informed Error Typology](https://aclanthology.org/2025.coling-main.189/)|[[website]](https://open-writing-evaluation.github.io/)|
+||2025|[A Chain-of-Task Framework for Instruction Tuning of LLMs Based on Chinese Grammatical Error Correction](https://aclanthology.org/2025.coling-main.577/)|[[code]](https://github.com/lxp991108/CoCGEC)|
 
 ### Czech
 
@@ -552,6 +563,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |:--|:--|:--|:--|
 ||2014|[[Detection and correction of non word spelling errors in Hindi language]](https://ieeexplore.ieee.org/abstract/document/6954235)||
 |HiWikiEd dataset|2020|[[Generating Inflectional Errors for Grammatical Error Correction in Hindi]](https://aclanthology.org/2020.aacl-srw.24/)|[[data]](https://github.com/s-ankur/hindi_grammar_correction)|
+|Hi-GEC|2025|[Hi-GEC: Hindi Grammar Error Correction in Low Resource Scenario](https://aclanthology.org/2025.coling-main.406/)|[[code]](https://github.com/ujjwalsharmaIITB/Hi-GEC)|
 
 ### Icelandic
 |Keywords / Overview|Year|Paper|Note|
@@ -611,6 +623,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |ERRANT-TR|2023|[Towards Automatic Grammatical Error Type Classification for Turkish](https://aclanthology.org/2023.eacl-srw.14)|[[code]](https://github.com/harunuz/erranttr)|
+|GECTurk WEB|2025|[GECTurk WEB: An Explainable Online Platform for Turkish Grammatical Error Detection and Correction](https://aclanthology.org/2025.coling-demos.16/)|[[website]](https://www.gecturk.net/)|
 
 ### Ukrainian
 
