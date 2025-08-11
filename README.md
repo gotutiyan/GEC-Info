@@ -17,6 +17,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 
 * [Surveys](https://github.com/gotutiyan/GEC-Info#surveys)
 * [Shared Tasks](https://github.com/gotutiyan/GEC-Info#shared-tasks)
+* [Libraries](https://github.com/gotutiyan/GEC-Info#libraries)
 * [Datasets](https://github.com/gotutiyan/GEC-Info#datasets)
   * [For Training](https://github.com/gotutiyan/GEC-Info#for-training-real-data)
   * [For Evaluation](https://github.com/gotutiyan/GEC-Info#for-evaluation)
@@ -80,6 +81,12 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |CoNLL-2014|2014| [[paper]](https://aclanthology.org/W14-1701/)| [[website]](https://www.comp.nus.edu.sg/~nlp/conll14st.html) [[system outputs]](https://www.comp.nus.edu.sg/~nlp/conll14st/official_submissions.tar.gz)|
 |BEA-2019|2019| [[paper]](https://aclanthology.org/W19-4406/)| [[website]](https://www.cl.cam.ac.uk/research/nl/bea2019st/) [[system outpus]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/system_output.bea19.tar.gz)|
 
+# Libraries
+
+|Name|Year|Paper|Note|
+|:--|:--|:--|:--|
+|UnifiedGEC|2025|[UnifiedGEC: Integrating Grammatical Error Correction Approaches for Multi-languages with a Unified Framework](https://aclanthology.org/2025.coling-demos.5/)|[[code]](https://github.com/AnKate/UnifiedGEC)|
+|gec-metrics|2025|[gec-metrics: A Unified Library for Grammatical Error Correction Evaluation](https://aclanthology.org/2025.acl-demo.50/)|[[code]](https://github.com/gotutiyan/gec-metrics)|
 
 # Datasets
 
@@ -100,6 +107,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Name|Year|Paper|Note|
 |:--|:--|:--|:--|
 |PIE-synthetic|2019| [[Parallel Iterative Edit Models for Local Sequence Transduction]](https://aclanthology.org/D19-1435)| [[download]](https://drive.google.com/open?id=1bl5reJ-XhPEfEaPjvO45M7w0yN-0XGOA)|
+|OmniGEC|2025|[Introducing OmniGEC: A Silver Multilingual Dataset for Grammatical Error Correction](https://aclanthology.org/2025.unlp-1.17/)|[[HF datasets]](https://huggingface.co/collections/lang-uk/omnigec-68095391ebef195ed6c0a5f3), [[code]](https://github.com/r-kovalch/omnigec-data). Czech, English, Estonian, German, Greek, Icelandic, Italian, Latvian, Slovene, Swedish, and Ukrainian|
 
 ### For Evaluation
 
@@ -116,6 +124,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |ErAConD|2021|[[ErAConD : Error Annotated Conversational Dialog Dataset for Grammatical Error Correction]](https://aclanthology.org/2022.naacl-main.5/)|[[data]](https://github.com/yuanxun-yx/eracond)<br>Training dataset is also included.|
 |RobustGEC|2023|[RobustGEC: Robust Grammatical Error Correction Against Subtle Context Perturbation](https://aclanthology.org/2023.emnlp-main.1043/)|[[code]](https://github.com/hillzhang1999/RobustGEC)|
 |CSW Lang-8 Dataset|2024|[Grammatical Error Correction for Code-Switched Sentences by Learners of English](https://aclanthology.org/2024.lrec-main.698/)|[[code/data]](https://github.com/kelvinchanwh/csw-gector?tab=readme-ov-file)|
+|CTSEG|2025|[Targeted Syntactic Evaluation for Grammatical Error Correction](https://aclanthology.org/2025.acl-long.1026/)|[[data]](https://github.com/SDS-NLP/CTSEG)|
 
 
 # Performance measures
@@ -134,6 +143,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |CLEME|2023|[CLEME: Debiasing Multi-reference Evaluation for Grammatical Error Correction](https://aclanthology.org/2023.emnlp-main.378/)|[[code]](https://github.com/THUKElab/CLEME.git)|
 |GREEN|2024|[n-gram F-score for Evaluating Grammatical Error Correction](https://aclanthology.org/2024.inlg-main.25/)|[[code]](https://github.com/shotakoyama/green)|
 ||2025|[Refined Evaluation for End-to-End Grammatical Error Correction Using an Alignment-Based Approach](https://aclanthology.org/2025.coling-main.52/)|[[website]](https://open-writing-evaluation.github.io/)|
+|CLEME2.0|2025|[CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction](https://aclanthology.org/2025.acl-long.10/)|[[code]](https://github.com/THUKElab/CLEME.git)|
+|ERRANT extended to multiple languages|2025|[Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility](https://aclanthology.org/2025.bea-1.15/)|[[code]](https://github.com/open-writing-evaluation/jp_errant_bea)|
 
 ### Reference-free
 
@@ -146,6 +157,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |Scribendi Score|2021|[[Is this the end of the gold standard? A straightforward reference-less grammatical error correction metric]](https://aclanthology.org/2021.emnlp-main.239/)|[[Unofficial code]](https://github.com/gotutiyan/scribendi_score)|
 |IMPARA|2022|[IMPARA: Impact-Based Metric for GEC Using Parallel Data](https://aclanthology.org/2022.coling-1.316/)|[[code]](https://github.com/Silviase/IMPARA)|
 ||2024|[Large Language Models Are State-of-the-Art Evaluator for Grammatical Error Correction](https://aclanthology.org/2024.bea-1.6)||
+|IMPARA-GED|2025|[IMPARA-GED: Grammatical Error Detection is Boosting Reference-free Grammatical Error Quality Estimator](https://aclanthology.org/2025.findings-acl.1315/)|[[Official model]](https://huggingface.co/naist-nlp/IMPARA-GED)|
+||2025|[LLM-based post-editing as reference-free GEC evaluation](https://aclanthology.org/2025.bea-1.16/)||
 
 ### Meta-evaluation
 
@@ -244,6 +257,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |EDU Copy Mechanism|2024|[Improving Copy-oriented Text Generation via EDU Copy Mechanism](https://aclanthology.org/2024.lrec-main.768/)||
 ||2024|[Efficient and Interpretable Grammatical Error Correction with Mixture of Experts](https://aclanthology.org/2024.findings-emnlp.997/)|[[code]](https://github.com/nusnlp/moece)|
 ||2025|[InstructGEC: Enhancing Unsupervised Grammatical Error Correction with Instruction Tuning](https://aclanthology.org/2025.coling-main.9/)||
+|CxGGEC|2025|[CxGGEC: Construction-Guided Grammatical Error Correction](https://aclanthology.org/2025.acl-long.307/)||
 
 ### Tagging / Non-autogressive
 |Keywords / Overview|Year|Paper|Note|
@@ -276,6 +290,8 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |EPO|2025|[Edit-Wise Preference Optimization for Grammatical Error Correction](https://aclanthology.org/2025.coling-main.229/)||
 ||2024|[Prompting open-source and commercial language models for grammatical error correction of English learner text](https://aclanthology.org/2024.findings-acl.711)|[[code]](https://github.com/chrisdavis90/gec-prompting-public)|
 ||2025|[Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.251/)|[[code]](https://github.com/GMago-LeWay/FewShotGEC)|
+||2025|[Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction](https://aclanthology.org/2025.findings-acl.1090/)|[[code]](https://github.com/viniferagy/GER)|
+||2025|[Adapting LLMs for Minimal-edit Grammatical Error Correction](https://aclanthology.org/2025.bea-1.9/)|[[code]](https://github.com/richardxoldman/llms-for-minimal-gec)|
 
 # Ensembles / Post-processing
 
@@ -353,6 +369,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2024|[To Err Is Human, but Llamas Can Learn It Too](https://aclanthology.org/2024.findings-emnlp.727/)|[[code]](https://github.com/TartuNLP/gec-llm)|
 ||2025|[Large Language Models are Good Annotators for Type-aware Data Augmentation in Grammatical Error Correction](https://aclanthology.org/2025.coling-main.14/)|[[code]](https://github.com/LiXinyuan1015/TypeDA)|
 ||2025|[Leveraging Multilingual Models for Robust Grammatical Error Correction Across Low-Resource Languages](https://aclanthology.org/2025.coling-industry.43/)||
+||2025|[Low-Resource Grammatical Error Correction: Selective Data Augmentation with Round-Trip Machine Translation](https://aclanthology.org/2025.findings-acl.1322/)|[[code]](https://github.com/arozovskaya/Low-Resource-GEC-SeLex-RT). experiments Include Russian and Ukrainian.|
 
 ### Data Cleaning
 
@@ -389,6 +406,8 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2023|[Evaluation Metrics in the Era of GPT-4: Reliably Evaluating Large Language Models on Sequence to Sequence Tasks](https://aclanthology.org/2023.emnlp-main.543/)||
 ||2024|[[Pillars of Grammatical Error Correction: Comprehensive Inspection Of Contemporary Approaches In The Era of Large Language Models](https://aclanthology.org/2024.bea-1.3)]|[[code]](https://github.com/grammarly/pillars-of-gec)|
 ||2024|[Likelihood-based Mitigation of Evaluation Bias in Large Language Models](https://aclanthology.org/2024.findings-acl.193)||
+||2025|[Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?](https://aclanthology.org/2025.acl-short.92/)|[[code]](https://github.com/gotutiyan/gec-metrics)|
+||2025|[Improving Explainability of Sentence-level Metrics via Edit-level Attribution for Grammatical Error Correction](https://aclanthology.org/2025.acl-srw.77/)|[[code]](https://github.com/naist-nlp/gec-attribute)|
 
 
 # Spoken Domain
@@ -410,7 +429,6 @@ This includes methods such as decoding techniques and approaches that modify the
 |ALLECS|2023|[ALLECS: A Lightweight Language Error Correction System](https://aclanthology.org/2023.eacl-demo.32)|[[website]](https://sterling8.d2.comp.nus.edu.sg/allecs/) [[code]](https://github.com/nusnlp/ALLECS)|
 ||2023|[Doolittle: Benchmarks and Corpora for Academic Writing Formalization](https://aclanthology.org/2023.emnlp-main.809/)|[[code]](https://github.com/shizhediao/Doolittle)|
 ||2025|[Who Wrote This? The Key to Zero-Shot LLM-Generated Text Detection Is GECScore](https://aclanthology.org/2025.coling-main.684/)|[[code]](https://github.com/NLP2CT/GECScore)|
-||2025|[UnifiedGEC: Integrating Grammatical Error Correction Approaches for Multi-languages with a Unified Framework](https://aclanthology.org/2025.coling-demos.5/)|[[code]](https://github.com/AnKate/UnifiedGEC)|
 
 # Projects
 
@@ -499,12 +517,14 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2023|[Advancements in Arabic Grammatical Error Detection and Correction: An Empirical Investigation](https://aclanthology.org/2023.emnlp-main.396/)|[[code]](https://github.com/CAMeL-Lab/arabic-gec)|
 ||2023|[Beyond English: Evaluating LLMs for Arabic Grammatical Error Correction](https://aclanthology.org/2023.arabicnlp-1.9/)|[[code]]|
 ||2025|[ARWI: Arabic Write and Improve](https://aclanthology.org/2025.in2writing-1.2/)|[[website]](https://arwi.mbzuai.ac.ae/)|
+||2025|[Enhancing Text Editing for Grammatical Error Correction: Arabic as a Case Study](https://aclanthology.org/2025.acl-long.875/)|[[code]](https://github.com/CAMeL-Lab/text-editing)|
 
 ### Bangla
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 ||2021|[[Development of Bangla Spell and Grammar Checkers: Resource Creation and Evaluation]](https://ieeexplore.ieee.org/document/9568876)||
+||2025|[Leveraging LLMs for Bangla Grammar Error Correction: Error Categorization, Synthetic Data, and Model Evaluation](https://aclanthology.org/2025.findings-acl.431/)|[[code]](https://github.com/Bangla-iitk/Vaiyakarana)|
 
 ### Chinese
 
@@ -541,6 +561,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2025|[Improving Automatic Grammatical Error Annotation for Chinese Through Linguistically-Informed Error Typology](https://aclanthology.org/2025.coling-main.189/)|[[website]](https://open-writing-evaluation.github.io/)|
 ||2025|[A Chain-of-Task Framework for Instruction Tuning of LLMs Based on Chinese Grammatical Error Correction](https://aclanthology.org/2025.coling-main.577/)|[[code]](https://github.com/lxp991108/CoCGEC)|
 |VisCGEC|2025|[VisCGEC: Benchmarking the Visual Chinese Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.261/)|[[code]](https://github.com/xiaoAugenstern/VisCGEC)|
+||2025|[Rethinking the Roles of Large Language Models in Chinese Grammatical Error Correction](https://aclanthology.org/2025.acl-industry.39/)|[[code]](https://github.com/THUKElab/LLM4CGEC)|
 
 ### Czech
 
@@ -548,6 +569,12 @@ This includes methods such as decoding techniques and approaches that modify the
 |:--|:--|:--|:--|
 |AKCES-GEC dataset| 2019| [[Grammatical Error Correction in Low-Resource Scenarios]](https://aclanthology.org/D19-5545)| [[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3057)|
 |Grammar Error Correction Corpus for Czech (GECCC)|2022|[Czech Grammar Error Correction with a Large and Diverse Corpus](https://arxiv.org/abs/2201.05590)|[[data]](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4639)|
+
+### Estonian
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2025|[Paragraph-level Error Correction and Explanation Generation: Case Study for Estonian](https://aclanthology.org/2025.bea-1.72/)|[[data]](https://github.com/tlu-dt-nlp/EstGEC-L2-Corpus/)|
 
 ### Finnish
 |Keywords / Overview|Year|Paper|Note|
@@ -618,6 +645,8 @@ This includes methods such as decoding techniques and approaches that modify the
 |RU-Lang8 dataset|2021| [[New Dataset and Strong Baselines for the Grammatical Error Correction of Russian]](https://aclanthology.org/2021.findings-acl.359/)| [[data]](https://github.com/arozovskaya/RU-Lang8)|
 |Additional annotations for RULEC and RU-Lang8|2024|[Multi-Reference Benchmarks for Russian Grammatical Error Correction](https://aclanthology.org/2024.eacl-long.76/)|[[RULEC]](https://github.com/arozovskaya/RULEC-GEC) [[RU-Lang8]](https://github.com/arozovskaya/RU-Lang8)|
 ||2024|[Universal Dependencies for Learner Russian](https://aclanthology.org/2024.lrec-main.1486/)|[[code]](https://github.com/arozovskaya/dependency-learner-russian)|
+||2025|[Grammatical Error Correction via Sequence Tagging for Russian](https://aclanthology.org/2025.acl-srw.82/)|[[code]](https://github.com/ReginaNasyrova/RussianGEC_SeqTagger)|
+|LORuGEC|2025|[LLMs in alliance with Edit-based models: advancing In-Context Learning for Grammatical Error Correction by Specific Example Selection](https://aclanthology.org/2025.bea-1.38/)|[[data]](https://github.com/ReginaNasyrova/LORuGEC) [[code]](https://github.com/AlexeySorokin/LORuGEC)|
 
 ### Spanish
 
