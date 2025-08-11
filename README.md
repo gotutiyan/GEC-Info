@@ -275,6 +275,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |For code-switched text|2024|[LLM-based Code-Switched Text Generation for Grammatical Error Correction](https://aclanthology.org/2024.emnlp-main.942/)|[[code]](https://github.com/tpotterer/Synthetic-CSW-Text-for-GEC)|
 |EPO|2025|[Edit-Wise Preference Optimization for Grammatical Error Correction](https://aclanthology.org/2025.coling-main.229/)||
 ||2024|[Prompting open-source and commercial language models for grammatical error correction of English learner text](https://aclanthology.org/2024.findings-acl.711)|[[code]](https://github.com/chrisdavis90/gec-prompting-public)|
+||2025|[Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.251/)|[[code]](https://github.com/GMago-LeWay/FewShotGEC)|
 
 # Ensembles / Post-processing
 
@@ -497,6 +498,7 @@ This includes methods such as decoding techniques and approaches that modify the
 |ARETA| 2021| [[Automatic Error Type Annotation for Arabic]](https://aclanthology.org/2021.conll-1.47/)|[[code]](https://github.com/CAMeL-Lab/arabic_error_type_annotation)|
 ||2023|[Advancements in Arabic Grammatical Error Detection and Correction: An Empirical Investigation](https://aclanthology.org/2023.emnlp-main.396/)|[[code]](https://github.com/CAMeL-Lab/arabic-gec)|
 ||2023|[Beyond English: Evaluating LLMs for Arabic Grammatical Error Correction](https://aclanthology.org/2023.arabicnlp-1.9/)|[[code]]|
+||2025|[ARWI: Arabic Write and Improve](https://aclanthology.org/2025.in2writing-1.2/)|[[website]](https://arwi.mbzuai.ac.ae/)|
 
 ### Bangla
 
@@ -538,6 +540,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2024|[Towards Explainable Chinese Native Learner Essay Fluency Assessment: Dataset, Tasks, and Method](https://aclanthology.org/2024.findings-emnlp.910/)|[[code]](https://github.com/cubenlp/CEFA)|
 ||2025|[Improving Automatic Grammatical Error Annotation for Chinese Through Linguistically-Informed Error Typology](https://aclanthology.org/2025.coling-main.189/)|[[website]](https://open-writing-evaluation.github.io/)|
 ||2025|[A Chain-of-Task Framework for Instruction Tuning of LLMs Based on Chinese Grammatical Error Correction](https://aclanthology.org/2025.coling-main.577/)|[[code]](https://github.com/lxp991108/CoCGEC)|
+|VisCGEC|2025|[VisCGEC: Benchmarking the Visual Chinese Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.261/)|[[code]](https://github.com/xiaoAugenstern/VisCGEC)|
 
 ### Czech
 
@@ -594,6 +597,7 @@ This includes methods such as decoding techniques and approaches that modify the
 |:--|:--|:--|:--|
 |KAGAS|2023|[Towards standardizing Korean Grammatical Error Correction: Datasets and Annotation](https://aclanthology.org/2023.acl-long.371)|[[code]](https://github.com/soyoung97/Standard_Korean_GEC) [[data request form]](https://docs.google.com/forms/d/e/1FAIpQLSfewjAmqcrKF5GDYuIWOfyMVBI3FN6tCwI8jalzQNhGoVAlRg/viewform)|
 ||2024|[Search if you don’t know! Knowledge-Augmented Korean Grammatical Error Correction with Large Language Models](https://aclanthology.org/2024.findings-emnlp.6/)||
+||2025|[Unified Automated Essay Scoring and Grammatical Error Correction](https://aclanthology.org/2025.findings-naacl.250/)||
 
 ### Lithuanian
 |Keywords / Overview|Year|Paper|Note|
