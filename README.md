@@ -292,6 +292,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 ||2025|[Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.251/)|[[code]](https://github.com/GMago-LeWay/FewShotGEC)|
 ||2025|[Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction](https://aclanthology.org/2025.findings-acl.1090/)|[[code]](https://github.com/viniferagy/GER)|
 ||2025|[Adapting LLMs for Minimal-edit Grammatical Error Correction](https://aclanthology.org/2025.bea-1.9/)|[[code]](https://github.com/richardxoldman/llms-for-minimal-gec)|
+||2025|[Leveraging What’s Overfixed: Post-Correction via LLM Grammatical Error Overcorrection](https://aclanthology.org/2025.emnlp-main.1431/)||
 
 # Ensembles / Post-processing
 
@@ -408,7 +409,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2024|[Likelihood-based Mitigation of Evaluation Bias in Large Language Models](https://aclanthology.org/2024.findings-acl.193)||
 ||2025|[Rethinking Evaluation Metrics for Grammatical Error Correction: Why Use a Different Evaluation Process than Human?](https://aclanthology.org/2025.acl-short.92/)|[[code]](https://github.com/gotutiyan/gec-metrics)|
 ||2025|[Improving Explainability of Sentence-level Metrics via Edit-level Attribution for Grammatical Error Correction](https://aclanthology.org/2025.acl-srw.77/)|[[code]](https://github.com/naist-nlp/gec-attribute)|
-
+||2025|[Reliability Crisis of Reference-free Metrics for Grammatical Error Correction](https://aclanthology.org/2025.findings-emnlp.1356/)|[[code]](https://github.com/gotutiyan/attack-gec-metrics)|
 
 # Spoken Domain
 
@@ -595,13 +596,14 @@ This includes methods such as decoding techniques and approaches that modify the
 |:--|:--|:--|:--|
 |Falko-MERLIN dataset|2018| [[Using Wikipedia Edits in Low Resource Grammatical Error Correction]](https://aclanthology.org/W18-6111/)| [[data]](https://github.com/adrianeboyd/boyd-wnut2018/)|
 
-### Hindi
+### Indian
 
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 ||2014|[[Detection and correction of non word spelling errors in Hindi language]](https://ieeexplore.ieee.org/abstract/document/6954235)||
 |HiWikiEd dataset|2020|[[Generating Inflectional Errors for Grammatical Error Correction in Hindi]](https://aclanthology.org/2020.aacl-srw.24/)|[[data]](https://github.com/s-ankur/hindi_grammar_correction)|
 |Hi-GEC|2025|[Hi-GEC: Hindi Grammar Error Correction in Low Resource Scenario](https://aclanthology.org/2025.coling-main.406/)|[[code]](https://github.com/ujjwalsharmaIITB/Hi-GEC)|
+|IndiGEC|2025|[IndiGEC: Multilingual Grammar Error Correction for Low-Resource Indian Languages](https://aclanthology.org/2025.emnlp-main.1139/)|[[code]](https://github.com/ujjwalsharmaIITB/IndiGEC)|
 
 ### Icelandic
 |Keywords / Overview|Year|Paper|Note|
