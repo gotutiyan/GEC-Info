@@ -52,6 +52,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Finnish](https://github.com/gotutiyan/GEC-Info#finnish)
   * [Geek](https://github.com/gotutiyan/GEC-Info#geek)
   * [German](https://github.com/gotutiyan/GEC-Info#german)
+  * [Gujarati](https://github.com/gotutiyan/GEC-Info#gujarati)
   * [Indian](https://github.com/gotutiyan/GEC-Info#indian)
   * [Icelandic](https://github.com/gotutiyan/GEC-Info#icelandic)
   * [Japanese](https://github.com/gotutiyan/GEC-Info#japanese)
@@ -82,6 +83,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
 |CoNLL-2013|2013| [[paper]](https://aclanthology.org/W13-3601/)| [[website]](https://www.comp.nus.edu.sg/~nlp/conll13st.html)|
 |CoNLL-2014|2014| [[paper]](https://aclanthology.org/W14-1701/)| [[website]](https://www.comp.nus.edu.sg/~nlp/conll14st.html) [[system outputs]](https://www.comp.nus.edu.sg/~nlp/conll14st/official_submissions.tar.gz)|
 |BEA-2019|2019| [[paper]](https://aclanthology.org/W19-4406/)| [[website]](https://www.cl.cam.ac.uk/research/nl/bea2019st/) [[system outpus]](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/system_output.bea19.tar.gz)|
+|BHASHA 2025|2025|[Findings of the IndicGEC and IndicWG Shared Task at BHASHA 2025](https://aclanthology.org/2025.bhasha-1.12/)|Indian Languages. Teams: [[Niyamika]](https://aclanthology.org/2025.bhasha-1.13/) [[Horizon]](https://aclanthology.org/2025.bhasha-1.14/) [[A3-108]](https://aclanthology.org/2025.bhasha-1.15/) [[DLRG]](https://aclanthology.org/2025.bhasha-1.16/) [[akhilrajeevp]](https://aclanthology.org/2025.bhasha-1.17/)|
 
 # Libraries
 
@@ -563,6 +565,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2025|[A Chain-of-Task Framework for Instruction Tuning of LLMs Based on Chinese Grammatical Error Correction](https://aclanthology.org/2025.coling-main.577/)|[[code]](https://github.com/lxp991108/CoCGEC)|
 |VisCGEC|2025|[VisCGEC: Benchmarking the Visual Chinese Grammatical Error Correction](https://aclanthology.org/2025.naacl-long.261/)|[[code]](https://github.com/xiaoAugenstern/VisCGEC)|
 ||2025|[Rethinking the Roles of Large Language Models in Chinese Grammatical Error Correction](https://aclanthology.org/2025.acl-industry.39/)|[[code]](https://github.com/THUKElab/LLM4CGEC)|
+||2026|[Improving Proficiency and Grammar Accuracy for Chinese Language Learners with Large Language Models](https://aclanthology.org/2025.findings-ijcnlp.74/)||
 
 ### Czech
 
@@ -594,6 +597,13 @@ This includes methods such as decoding techniques and approaches that modify the
 |Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |Falko-MERLIN dataset|2018|[Using Wikipedia Edits in Low Resource Grammatical Error Correction](https://aclanthology.org/W18-6111/)|[[data]](https://github.com/adrianeboyd/boyd-wnut2018/)|
+
+### Gujarati
+
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2026|[Smruti: Grammatical Error Correction for Gujarati using LLMs with Non-Parametric Memory](https://aclanthology.org/2025.findings-ijcnlp.28/)|[[data]](https://github.com/VGD3626/Smruti-GEC-for-Gujarati) [[Gujarati ERRANT]](https://github.com/VGD3626/ERRANT-for-Gujarati)|
+
 
 ### Indian
 
