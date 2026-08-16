@@ -63,6 +63,7 @@ It can also be viewed on [GitHub Pages](https://gotutiyan.github.io/GEC-Info/)
   * [Spanish](https://github.com/gotutiyan/GEC-Info#spanish)
   * [Turkish](https://github.com/gotutiyan/GEC-Info#turkish)
   * [Ukrainian](https://github.com/gotutiyan/GEC-Info#ukrainian)
+  * [Zarma](https://github.com/gotutiyan/GEC-Info#zarma)
 
 
 # Surveys
@@ -521,6 +522,7 @@ This includes methods such as decoding techniques and approaches that modify the
 ||2023|[Beyond English: Evaluating LLMs for Arabic Grammatical Error Correction](https://aclanthology.org/2023.arabicnlp-1.9/)||
 ||2025|[ARWI: Arabic Write and Improve](https://aclanthology.org/2025.in2writing-1.2/)|[[website]](https://arwi.mbzuai.ac.ae/)|
 ||2025|[Enhancing Text Editing for Grammatical Error Correction: Arabic as a Case Study](https://aclanthology.org/2025.acl-long.875/)|[[code]](https://github.com/CAMeL-Lab/text-editing)|
+|Nahw|2026|[Nahw: A Comprehensive Benchmark of Arabic Grammar Understanding, Error Detection, Correction, and Explanation](https://aclanthology.org/2026.eacl-long.296/)|[[Data]](https://github.com/qcri/nahw-arabic-grammar-benchmark/)|
 
 ### Bangla
 
@@ -679,10 +681,15 @@ This includes methods such as decoding techniques and approaches that modify the
 
 ### Ukrainian
 
-Keywords / Overview|Year|Paper|Note|
+|Keywords / Overview|Year|Paper|Note|
 |:--|:--|:--|:--|
 |UA-GEC|2023|[UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language](https://aclanthology.org/2023.unlp-1.12/)|[[data]](https://github.com/grammarly/ua-gec)|
 |UNLP 2023 Shared Task|2023|[The UNLP 2023 Shared Task on Grammatical Error Correction for Ukrainian](https://aclanthology.org/2023.unlp-1.16)||
 ||2023|[Comparative Study of Models Trained on Synthetic Data for Ukrainian Grammatical Error Correction](https://aclanthology.org/2023.unlp-1.13)|UNLP-2023: Pravopysnyk|
 ||2023|[A Low-Resource Approach to the Grammatical Error Correction of Ukrainian](https://aclanthology.org/2023.unlp-1.14)|UNLP-2023: QC-NLP|
 ||2023|[RedPenNet for Grammatical Error Correction: Outputs to Tokens, Attentions to Spans](https://aclanthology.org/2023.unlp-1.15)|UNLP-2023: WebSpellChecker|
+
+### Zarma
+|Keywords / Overview|Year|Paper|Note|
+|:--|:--|:--|:--|
+||2026|[Grammatical Error Correction for Low-Resource Languages: The Case of Zarma](https://aclanthology.org/2026.loreslm-1.9/)|[[Data]](https://huggingface.co/datasets/27Group/noisy_zarma)|
